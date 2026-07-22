@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>전남대학교 졸업 플래너</title>
+    <meta
+      name="description"
+      content="매크로 없는 엑셀(.xlsx) 기반 전남대학교 졸업요건 점검 플래너. 전공을 선택해 브라우저에서 바로 생성합니다."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <h1>전남대학교 졸업 플래너</h1>
+        <p class="tagline">
+          전공·계열·입학연도를 선택하면 브라우저에서 바로 맞춤형 엑셀(.xlsx)
+          파일을 생성합니다.<br />
+          매크로 없이 셀 수식만으로 동작하여 Google Sheets · LibreOffice · Excel
+          어디서나 열 수 있습니다.
+        </p>
+      </header>
+
+      <section class="generator">
+        <h2>플래너 생성</h2>
+        <form id="gen-form">
+          <fieldset>
+            <legend>학생 정보</legend>
+            <div class="grid">
+              <label>
+                입학연도
+                <input
+                  type="number"
+                  id="entry-year"
+                  value="2026"
+                  min="1990"
+                  max="2100"
+                  required
+                />
+              </label>
+              <label>
+                계열
+                <select id="track" required>
+                  <option value="이공계열">이공계열</option>
+                  <option value="인문사회계열">인문사회계열</option>
+                  <option value="예체능계열">예체능계열</option>
+                </select>
+              </label>
+            </div>
+            <p class="hint">
+              계열은 임의 선택이 아니라 소속 학과/학부가 속한 대학 구분에
+              따릅니다 (교학규정 별표1). 학과 사무실·학사요람에서 확인하세요.
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>전공 선택</legend>
+
+            <label class="field">
+              주전공 (필수)
+              <select id="primary-major" required></select>
+            </label>
+
+            <label class="field" id="primary-track-field" hidden>
+              세부전공 (학부 선택 시)
+              <select id="primary-track"></select>
+            </label>
+
+            <div class="field">
+              <span class="field-label"
+                >복수전공 / 부전공 / 연계전공 (선택, 여러 개 가능)</span
+              >
+              <div id="extra-majors"></div>
+              <button type="button" id="add-major" class="btn-secondary">
+                전공 추가
+              </button>
+            </div>
+
+            <p class="hint">
+              주전공은 1개만 선택합니다. 복수·부·연계전공은 개수 제한 없이
+              추가할 수 있습니다. 졸업 최소 평점과 교양최대인정학점은 주전공
+              학과 기준으로 자동 결정됩니다.
+            </p>
+          </fieldset>
+
+          <button type="submit" id="generate" class="btn">
+            플래너 생성 및 다운로드 (.xlsx)
+          </button>
+          <p id="status" class="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="features">
+        <h2>주요 기능</h2>
+        <ul>
+          <li>전공별 전용 시트 + 이수구분별·총 이수학점·GPA 자동 집계</li>
+          <li>코드 입력 시 교과목명·학점·이수구분 자동완성 (주전공 우선)</li>
+          <li>복수·부·연계전공 이수학점 요건과 졸업 가능 여부 자동 판정</li>
+          <li>매크로/스크립트 없음 — 어떤 표 계산 앱에서도 안전하게 사용</li>
+        </ul>
+      </section>
+
+      <section class="usage">
+        <h2>사용 방법</h2>
+        <ol>
+          <li>위에서 학생 정보와 전공을 선택하고 생성 버튼을 누릅니다.</li>
+          <li>
+            내려받은 <code>.xlsx</code>를 Google Sheets/Excel/LibreOffice로
+            엽니다.
+          </li>
+          <li>
+            대시보드의 "이수 과목 입력" 표에만 과목을 입력하면 나머지는 자동
+            계산됩니다.
+          </li>
+        </ol>
+        <p class="note">
+          졸업요건은 학과 · 입학연도에 따라 다를 수 있으니 반드시 공식 규정을
+          확인하세요.
+        </p>
+      </section>
+
+      <footer>
+        <a
+          href="https://github.com/oneee-playground/jnu-graduation-planner"
+          rel="noopener"
+          >GitHub 저장소</a
+        >
+      </footer>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

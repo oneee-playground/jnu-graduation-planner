@@ -1,0 +1,803 @@
+{
+  "id": "전자컴퓨터공학부",
+  "displayName": "전자컴퓨터공학부",
+  "defaultThresholds": {
+    "genReq": 8,
+    "genElec": 22,
+    "majorReq": 30,
+    "majorElec": 18,
+    "majorAdv": 21,
+    "genSelect": 41,
+    "total": 140,
+    "minGpa": 1.75,
+    "genMax": 45,
+    "secondMajor": 48,
+    "minorCredits": 21
+  },
+  "tracks": ["전자공학", "컴퓨터정보통신", "시스템반도체"],
+  "courses": [
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "교필",
+      "title": "일반물리1",
+      "code": "CLT0095",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "교필",
+      "title": "진로설계와자기이해",
+      "code": "CLT0771",
+      "credits": 2,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "공학수학1",
+      "code": "ENG1003",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "공학설계입문",
+      "code": "ENV1005",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "교필",
+      "title": "일반물리2",
+      "code": "CLT0096",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "전필",
+      "title": "공학수학2",
+      "code": "ENG2004",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "전필",
+      "title": "파이썬프로그래밍및실습",
+      "code": "SAI0030",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "반도체개론",
+      "code": "ECE1009",
+      "credits": 3,
+      "note": "시스템반도체"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전필",
+      "title": "C프로그래밍기초및실습",
+      "code": "CIS1010",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전필",
+      "title": "논리회로설계",
+      "code": "ECE2014",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "고급프로그램활용프로젝트",
+      "code": "ECE2029",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "기초회로실험",
+      "code": "ECE2030",
+      "credits": 1,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전필",
+      "title": "회로이론1",
+      "code": "EEE2001",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전필",
+      "title": "확률및통계",
+      "code": "ENV1001",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "리눅스시스템및실습",
+      "code": "ECE9048",
+      "credits": 3,
+      "note": "컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "IoT컴퓨팅",
+      "code": "ECE9049",
+      "credits": 3,
+      "note": "컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "차세대통신과컴퓨팅",
+      "code": "ECE9065",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "자료구조",
+      "code": "CIS3001",
+      "credits": 3,
+      "note": "전자공학, 컴퓨터정보통신"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전필",
+      "title": "신호및시스템",
+      "code": "ECE2003",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전필",
+      "title": "선형대수학",
+      "code": "ECE2011",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "전자회로1",
+      "code": "ECE3008",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "회로이론2",
+      "code": "EEE2002",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "전자회로실험",
+      "code": "EEE7005",
+      "credits": 1,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "전자기학1",
+      "code": "PHY2013",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "컴퓨터구조",
+      "code": "CIS2004",
+      "credits": 3,
+      "note": "컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "고급프로그래밍및실습",
+      "code": "CIS2006",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "데이터통신",
+      "code": "ECE3007",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "오픈소스소프트웨어",
+      "code": "SAI0003",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "전자회로2",
+      "code": "ECE3025",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "통신이론",
+      "code": "ECE3029",
+      "credits": 3,
+      "note": "전자공학"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "디지털신호처리",
+      "code": "ECE3030",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "제어공학",
+      "code": "ECE3036",
+      "credits": 3,
+      "note": "전자공학"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "전자공학기초프로젝트",
+      "code": "ECE3059",
+      "credits": 3,
+      "note": "전자공학"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "물리전자",
+      "code": "ECE3075",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "다학제응용을위한통계및인공지능",
+      "code": "ECE3099",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "전자기학2",
+      "code": "PHY3014",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "운영체제",
+      "code": "CIS2001",
+      "credits": 3,
+      "note": "컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "데이터베이스시스템",
+      "code": "CIS3031",
+      "credits": 3,
+      "note": "컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "소프트웨어공학응용",
+      "code": "ECE9043",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "웹프로그래밍",
+      "code": "ECE9063",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "초고주파공학",
+      "code": "ECE3011",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "마이크로프로세서",
+      "code": "ECE3024",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "집적회로설계",
+      "code": "ECE3040",
+      "credits": 3,
+      "note": "전자공학"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "반도체소자공학",
+      "code": "ECE3094",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "디지털영상처리",
+      "code": "ECE4037",
+      "credits": 3,
+      "note": "전자공학, 컴퓨터정보통신"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "디지털통신공학",
+      "code": "ECE4082",
+      "credits": 3,
+      "note": "전자공학, 컴퓨터정보통신"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전필",
+      "title": "캡스톤디자인1",
+      "code": "ECE4084",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "지능제어",
+      "code": "EEE9005",
+      "credits": 3,
+      "note": "전자공학"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "딥러닝",
+      "code": "AIC0023",
+      "credits": 3,
+      "note": "컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "알고리즘",
+      "code": "CIS3016",
+      "credits": 3,
+      "note": "컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "컴퓨터그래픽스",
+      "code": "CIS3020",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "임베디드소프트웨어",
+      "code": "ECE3088",
+      "credits": 3,
+      "note": "컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "컴퓨터융합세미나",
+      "code": "ECE9040",
+      "credits": 1,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "반도체설계및실습",
+      "code": "ECE3097",
+      "credits": 3,
+      "note": "시스템반도체"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "집적반도체설계",
+      "code": "ECE3098",
+      "credits": 3,
+      "note": "시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "인공지능",
+      "code": "CIS3003",
+      "credits": 3,
+      "note": "전자공학, 컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "임베디드시스템",
+      "code": "ECE4044",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전필",
+      "title": "캡스톤디자인2",
+      "code": "ECE4085",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "EDA활용반도체설계",
+      "code": "ECE4103",
+      "credits": 3,
+      "note": "전자공학"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "디지털시스템설계",
+      "code": "ECE8018",
+      "credits": 3,
+      "note": "전자공학, 컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "RF회로설계",
+      "code": "ECE9023",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "데이터네트워크",
+      "code": "ECE9034",
+      "credits": 3,
+      "note": "전자공학"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "반도체공정공학",
+      "code": "ECE9037",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "가상현실",
+      "code": "CIS3004",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "기계학습",
+      "code": "CPE9020",
+      "credits": 3,
+      "note": "컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "컴퓨터네트워크",
+      "code": "ECE3026",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "모바일통신시스템",
+      "code": "ECE4081",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "스마트자동차시스템",
+      "code": "ECE4090",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "지능형ICT융합세미나",
+      "code": "ECE9039",
+      "credits": 1,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "반도체융합실무",
+      "code": "ECE4101",
+      "credits": 3,
+      "note": "시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "SOC설계",
+      "code": "ECE4048",
+      "credits": 3,
+      "note": "전자공학"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "인공지능반도체설계",
+      "code": "ECE4093",
+      "credits": 3,
+      "note": "전자공학, 시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "차세대통신공학",
+      "code": "ECE4094",
+      "credits": 3,
+      "note": "전자공학"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "로봇공학",
+      "code": "MAE4019",
+      "credits": 3,
+      "note": "전자공학"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "분산시스템",
+      "code": "CIS3012",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "휴먼인터페이스",
+      "code": "ECE4032",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "라우팅프로토콜",
+      "code": "ECE4060",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "컴퓨터정보보안",
+      "code": "ECE4080",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "지능형ICT융합현장실습",
+      "code": "ECE9041",
+      "credits": 2,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "빅데이터시스템",
+      "code": "ECE9045",
+      "credits": 3,
+      "note": "컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "어드벤쳐프로젝트",
+      "code": "ECE9053",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "클라우드컴퓨팅",
+      "code": "ECE9054",
+      "credits": 3,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "컴퓨터공학현장실습",
+      "code": "ECE9056",
+      "credits": 1,
+      "note": "컴퓨터정보통신"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "강화학습",
+      "code": "ECE9060",
+      "credits": 3,
+      "note": "컴퓨터정보통신, 시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "반도체패키징설계",
+      "code": "ECE4098",
+      "credits": 3,
+      "note": "시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "반도체콜로퀴엄",
+      "code": "ECE4099",
+      "credits": 3,
+      "note": "시스템반도체"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "반도체현장실습",
+      "code": "ECE4102",
+      "credits": 3,
+      "note": "시스템반도체"
+    }
+  ]
+}

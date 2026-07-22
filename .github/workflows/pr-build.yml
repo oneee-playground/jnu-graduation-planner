@@ -1,0 +1,66 @@
+name: PR build preview
+
+# On every pull request targeting main, builds planner.xlsx and posts a PR
+# comment with the result. On success the comment links to the workflow-run
+# artifact containing the built file (GitHub comments cannot embed binary
+# attachments, so the file is uploaded as an artifact and linked). On failure
+# the comment shows the tail of the build log so the error is visible inline.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pull-requests: write
+
+# One build per PR; newer pushes cancel stale runs.
+concurrency:
+  group: pr-build-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build planner.xlsx
+        id: build
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          npm run build 2>&1 | tee build.log
+
+      - name: Upload artifact
+        if: steps.build.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: planner-xlsx-pr-${{ github.event.pull_request.number }}
+          path: dist/planner.xlsx
+          if-no-files-found: error
+
+      - name: Post build result to PR
+        uses: actions/github-script@v7
+        env:
+          BUILD_OUTCOME: ${{ steps.build.outcome }}
+        with:
+          script: |
+            const script = require('./.github/scripts/pr-build-comment.cjs');
+            await script({ github, context, core });
+
+      - name: Fail job if build failed
+        if: steps.build.outcome != 'success'
+        run: exit 1

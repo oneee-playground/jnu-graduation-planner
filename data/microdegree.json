@@ -1,0 +1,994 @@
+{
+  "source": "전남대학교 마이크로디그리 운영 지침 [별표1] 전남대학교 마이크로디그리 운영 현황 (2026.06.22.)",
+  "degrees": [
+    {
+      "no": 1,
+      "name": "AI초급활용 마이크로디그리",
+      "criteria": "편성된 교과목(5과목) 중 4과목(12학점) 이수",
+      "term": "2022. 2학기",
+      "courses": [
+        { "code": "CIS9017", "title": "C프로그래밍및실습", "credits": 3 },
+        { "code": "ENV1001", "title": "확률및통계", "credits": 3 },
+        { "code": "IDE2024", "title": "데이터분석과응용", "credits": 3 },
+        { "code": "CIS3003", "title": "인공지능", "credits": 3 },
+        { "code": "CPE9020", "title": "기계학습", "credits": 3 }
+      ]
+    },
+    {
+      "no": 2,
+      "name": "AI빅데이터융합 마이크로디그리",
+      "criteria": "편성된 교과목(6과목) 중 5과목(15학점) 이수",
+      "term": "2022. 2학기",
+      "courses": [
+        { "code": "CIS3003", "title": "인공지능", "credits": 3 },
+        { "code": "SAI0028", "title": "인공지능시스템", "credits": 3 },
+        { "code": "STT9013", "title": "빅데이터처리및실습", "credits": 3 },
+        { "code": "STT9006", "title": "빅데이터캡스톤디자인", "credits": 3 },
+        { "code": "BDT0021", "title": "빅데이터컴퓨팅", "credits": 3 },
+        { "code": "BDT0004", "title": "딥러닝", "credits": 3 }
+      ]
+    },
+    {
+      "no": 3,
+      "name": "AI중급활용 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 15학점(5과목) 이수",
+      "term": "2023. 1학기",
+      "courses": [
+        { "code": "ENV1001", "title": "확률및통계", "credits": 3 },
+        { "code": "CPE9020", "title": "기계학습", "credits": 3 },
+        { "code": "AIC0023", "title": "딥러닝", "credits": 3 },
+        { "code": "ECE9050", "title": "오픈소스활용", "credits": 3 },
+        { "code": "SAI0025", "title": "영상이해", "credits": 3 },
+        { "code": "SAI0026", "title": "자연어처리", "credits": 3 }
+      ]
+    },
+    {
+      "no": 4,
+      "name": "문화콘텐츠기획 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2023. 1학기",
+      "courses": [
+        { "code": "ELL6003", "title": "영미문화의이해", "credits": 3 },
+        {
+          "code": "JLL9062",
+          "title": "문화와유적으로보는일본기행",
+          "credits": 3
+        },
+        { "code": "CHS9039", "title": "중국차문화와힐링", "credits": 3 },
+        { "code": "CTM0038", "title": "문화관광서비스경영", "credits": 3 },
+        { "code": "MMC9053", "title": "크리에이티브플래닝", "credits": 3 },
+        { "code": "MMC6004", "title": "웹저작및실습", "credits": 3 }
+      ]
+    },
+    {
+      "no": 5,
+      "name": "인공지능과수학교육 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2023. 2학기",
+      "courses": [
+        { "code": "ENV1001", "title": "확률및통계", "credits": 3 },
+        { "code": "CIS3003", "title": "인공지능", "credits": 3 },
+        { "code": "CPE9020", "title": "기계학습", "credits": 3 },
+        { "code": "MTH1009", "title": "선형대수학1및실습", "credits": 3 },
+        { "code": "EMT2009", "title": "수학교육과코딩", "credits": 3 },
+        { "code": "EMT2007", "title": "수학교육의기초", "credits": 3 }
+      ]
+    },
+    {
+      "no": 6,
+      "name": "지능형비즈니스 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2023. 2학기",
+      "courses": [
+        { "code": "BDT0020", "title": "프로그래밍입문및실습", "credits": 3 },
+        { "code": "BUS9056", "title": "국제재무", "credits": 3 },
+        { "code": "STT2004", "title": "의사결정론", "credits": 3 },
+        { "code": "BUS3024", "title": "무역실무", "credits": 3 },
+        { "code": "ECE9059", "title": "데이터사이언스", "credits": 3 },
+        { "code": "ECE9058", "title": "인공지능", "credits": 3 }
+      ]
+    },
+    {
+      "no": 7,
+      "name": "AI고급활용 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 15학점(5과목) 이수",
+      "term": "2023. 2학기",
+      "courses": [
+        { "code": "AIC0023", "title": "딥러닝", "credits": 3 },
+        { "code": "SAI0023", "title": "지능HCI", "credits": 3 },
+        { "code": "SAI0028", "title": "인공지능시스템", "credits": 3 },
+        { "code": "ECE9054", "title": "클라우드컴퓨팅", "credits": 3 },
+        { "code": "SAI0018", "title": "강화학습", "credits": 3 },
+        {
+          "code": "SAI0029",
+          "title": "산학협력프로젝트(캡스톤디자인)",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "name": "게임콘텐츠개발초급 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2023. 2학기",
+      "courses": [
+        { "code": "MTC0002", "title": "실감미디어융합", "credits": 3 },
+        { "code": "MTC0005", "title": "가상증강현실", "credits": 3 },
+        { "code": "MTC0004", "title": "역사문화자원의이해", "credits": 3 },
+        { "code": "MTC0008", "title": "미디어스토리텔링", "credits": 3 },
+        { "code": "CIS3020", "title": "컴퓨터그래픽스", "credits": 3 },
+        { "code": "MTC0020", "title": "게임프로그래밍", "credits": 3 }
+      ]
+    },
+    {
+      "no": 9,
+      "name": "AI융합차세대통신1 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2023. 2학기",
+      "courses": [
+        { "code": "SAI0030", "title": "파이썬프로그래밍및실습", "credits": 3 },
+        { "code": "ECE3007", "title": "데이터통신", "credits": 3 },
+        { "code": "CIS3003", "title": "인공지능", "credits": 3 },
+        { "code": "ECE9065", "title": "차세대통신과컴퓨팅", "credits": 3 },
+        { "code": "CLT0961", "title": "인공지능기초", "credits": 3 },
+        { "code": "CIS9017", "title": "C프로그래밍및실습", "credits": 3 }
+      ]
+    },
+    {
+      "no": 10,
+      "name": "차세대통신망SW 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2023. 2학기",
+      "courses": [
+        { "code": "ECE3007", "title": "데이터통신", "credits": 3 },
+        { "code": "SAI0003", "title": "오픈소스소프트웨어", "credits": 3 },
+        { "code": "ECE3043", "title": "시스템프로그래밍", "credits": 3 },
+        { "code": "CIS2001", "title": "운영체제", "credits": 3 },
+        { "code": "ECE3026", "title": "컴퓨터네트워크", "credits": 3 },
+        { "code": "ECE4081", "title": "모바일통신시스템", "credits": 3 }
+      ]
+    },
+    {
+      "no": 11,
+      "name": "차세대통신시스템설계2 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2023. 2학기",
+      "courses": [
+        { "code": "EEE2001", "title": "회로이론1", "credits": 3 },
+        { "code": "ECE2003", "title": "신호및시스템", "credits": 3 },
+        { "code": "ECE3030", "title": "디지털신호처리", "credits": 3 },
+        { "code": "ECE3029", "title": "통신이론", "credits": 3 },
+        { "code": "ECE4082", "title": "디지털통신공학", "credits": 3 },
+        { "code": "ECE4081", "title": "모바일통신시스템", "credits": 3 }
+      ]
+    },
+    {
+      "no": 12,
+      "name": "AI융합차세대통신2 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "ECE4024", "title": "네트워크프로그래밍", "credits": 3 },
+        { "code": "AIC0023", "title": "딥러닝", "credits": 3 },
+        { "code": "CPE9020", "title": "기계학습", "credits": 3 },
+        {
+          "code": "SAI0029",
+          "title": "산학협력프로젝트(캡스톤디자인)",
+          "credits": 3
+        },
+        { "code": "CIS2006", "title": "고급프로그래밍및실습", "credits": 3 },
+        { "code": "ECE9054", "title": "클라우드컴퓨팅", "credits": 3 }
+      ]
+    },
+    {
+      "no": 13,
+      "name": "차세대통신시스템설계1 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "ECE2011", "title": "선형대수학", "credits": 3 },
+        { "code": "ENV1001", "title": "확률및통계", "credits": 3 },
+        {
+          "code": "ECE2029",
+          "title": "고급프로그램활용프로젝트",
+          "credits": 3
+        },
+        { "code": "ECE2003", "title": "신호및시스템", "credits": 3 },
+        { "code": "ECE9048", "title": "리눅스시스템및실습", "credits": 3 },
+        { "code": "CLT0672", "title": "C프로그래밍", "credits": 3 }
+      ]
+    },
+    {
+      "no": 14,
+      "name": "차세대통신시스템설계3 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "CIS3003", "title": "인공지능", "credits": 3 },
+        { "code": "ECE4082", "title": "디지털통신공학", "credits": 3 },
+        {
+          "code": "ECE4086",
+          "title": "컴퓨터공학종합프로젝트2(캡스톤디자인)",
+          "credits": 3
+        },
+        { "code": "EEE4016", "title": "디지털시스템설계", "credits": 3 },
+        { "code": "ECE4093", "title": "인공지능반도체설계", "credits": 3 },
+        { "code": "ECE3088", "title": "임베디드소프트웨어", "credits": 3 }
+      ]
+    },
+    {
+      "no": 15,
+      "name": "통신SoC1 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "PHY2013", "title": "전자기학1", "credits": 3 },
+        { "code": "ECE3008", "title": "전자회로1", "credits": 3 },
+        { "code": "ECE8006", "title": "전자장", "credits": 3 },
+        { "code": "ECE2011", "title": "선형대수학", "credits": 3 },
+        { "code": "ECE1003", "title": "회로이론", "credits": 3 },
+        { "code": "ECE3029", "title": "통신이론", "credits": 3 }
+      ]
+    },
+    {
+      "no": 16,
+      "name": "통신SoC2 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "PHY3014", "title": "전자기학2", "credits": 3 },
+        { "code": "ECE3008", "title": "전자회로1", "credits": 3 },
+        { "code": "ECE2014", "title": "논리회로설계", "credits": 3 },
+        { "code": "ECE8018", "title": "디지털시스템설계", "credits": 3 },
+        { "code": "ECE3095", "title": "시스템반도체설계및실습", "credits": 3 },
+        { "code": "ECE3024", "title": "마이크로프로세서", "credits": 3 }
+      ]
+    },
+    {
+      "no": 17,
+      "name": "통신SoC3 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "ECE3011", "title": "초고주파공학", "credits": 3 },
+        { "code": "ECE9017", "title": "RF회로설계", "credits": 3 },
+        { "code": "ECE3025", "title": "전자회로2", "credits": 3 },
+        { "code": "ECE3040", "title": "집적회로설계", "credits": 3 },
+        { "code": "ECE8002", "title": "무선공학", "credits": 3 },
+        { "code": "ECE8008", "title": "통신회로설계및실험", "credits": 3 }
+      ]
+    },
+    {
+      "no": 18,
+      "name": "시스템보안 마이크로디그리",
+      "criteria": "편성 교과목(5과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "CIS2004", "title": "컴퓨터구조", "credits": 3 },
+        { "code": "ECE3043", "title": "시스템프로그래밍", "credits": 3 },
+        {
+          "code": "SAI0024",
+          "title": "소프트웨어리버스엔지니어링",
+          "credits": 3
+        },
+        { "code": "SAI0033", "title": "애플리케이션보안", "credits": 3 },
+        { "code": "SAI0036", "title": "시스템보안", "credits": 3 }
+      ]
+    },
+    {
+      "no": 19,
+      "name": "정보보안초급 마이크로디그리",
+      "criteria": "편성 교과목(5과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "SAI0031", "title": "정보보안개론", "credits": 3 },
+        { "code": "SAI0041", "title": "정보보호법및관리체계", "credits": 3 },
+        { "code": "CIS9017", "title": "C프로그래밍및실습", "credits": 3 },
+        { "code": "SAI0030", "title": "파이썬프로그래밍및실습", "credits": 3 },
+        { "code": "SAI0003", "title": "오픈소스소프트웨어", "credits": 3 }
+      ]
+    },
+    {
+      "no": 20,
+      "name": "네트워크보안1 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "CIS1010", "title": "C프로그래밍기초및실습", "credits": 3 },
+        { "code": "CIS2010", "title": "리눅스시스템", "credits": 3 },
+        { "code": "SAI0031", "title": "정보보안개론", "credits": 3 },
+        { "code": "ECE3043", "title": "시스템프로그래밍", "credits": 3 },
+        { "code": "SAI0003", "title": "오픈소스소프트웨어", "credits": 3 },
+        { "code": "CIS2004", "title": "컴퓨터구조", "credits": 3 }
+      ]
+    },
+    {
+      "no": 21,
+      "name": "네트워크보안2 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "CIS3016", "title": "알고리즘", "credits": 3 },
+        { "code": "ECE3007", "title": "데이터통신", "credits": 3 },
+        { "code": "CIS2001", "title": "운영체제", "credits": 3 },
+        { "code": "SAI0034", "title": "네트워크보안", "credits": 3 },
+        { "code": "CIS3009", "title": "데이타베이스시스템", "credits": 3 },
+        { "code": "ECE9065", "title": "차세대통신과컴퓨팅", "credits": 3 }
+      ]
+    },
+    {
+      "no": 22,
+      "name": "네트워크보안3 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "ECE3026", "title": "컴퓨터네트워크", "credits": 3 },
+        { "code": "ECE4024", "title": "네트워크프로그래밍", "credits": 3 },
+        { "code": "SAI0040", "title": "고급정보보안", "credits": 3 },
+        { "code": "ECE9054", "title": "클라우드컴퓨팅", "credits": 3 },
+        { "code": "ECE4081", "title": "모바일통신시스템", "credits": 3 },
+        { "code": "ECE4080", "title": "컴퓨터정보보안", "credits": 3 }
+      ]
+    },
+    {
+      "no": 23,
+      "name": "IoT통신 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "ECE9047", "title": "기초프로그래밍및실습", "credits": 3 },
+        { "code": "ECE3029", "title": "통신이론", "credits": 3 },
+        { "code": "ECE8016", "title": "인공지능기계학습", "credits": 3 },
+        { "code": "ECE8020", "title": "컴퓨터통신및네트워크", "credits": 3 },
+        { "code": "ECE8019", "title": "사물인터넷과자율주행", "credits": 3 },
+        { "code": "ECE9049", "title": "IoT컴퓨팅", "credits": 3 }
+      ]
+    },
+    {
+      "no": 24,
+      "name": "치과의료인공지능 마이크로디그리",
+      "criteria": "편성 교과목(5과목) 중 12학점(4과목) 이수",
+      "term": "2024. 1학기",
+      "courses": [
+        { "code": "SAI0030", "title": "파이썬프로그래밍및실습", "credits": 3 },
+        { "code": "CIS3003", "title": "인공지능", "credits": 3 },
+        { "code": "CPE9020", "title": "기계학습", "credits": 3 },
+        {
+          "code": "IDS3018",
+          "title": "바이오빅데이터와인공지능",
+          "credits": 3
+        },
+        { "code": "IDS3006", "title": "치의보건통계학및실습2", "credits": 3 }
+      ]
+    },
+    {
+      "no": 25,
+      "name": "지식재산창출 마이크로디그리",
+      "criteria": "편성 교과목(5과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "CLT0824", "title": "빅데이터의과학적탐구", "credits": 3 },
+        { "code": "ENV1005", "title": "공학설계입문", "credits": 3 },
+        { "code": "IPC0002", "title": "지식재산정보조사분석", "credits": 3 },
+        { "code": "IPC0004", "title": "지식재산전략", "credits": 3 },
+        { "code": "IPC0007", "title": "특허출원실무", "credits": 3 }
+      ]
+    },
+    {
+      "no": 26,
+      "name": "지식재산문화예술 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "CLT0927", "title": "크리에이터:디자인텔링", "credits": 3 },
+        { "code": "CLT0753", "title": "문화예술과저작권", "credits": 3 },
+        { "code": "LIS1003", "title": "정보문화사", "credits": 3 },
+        { "code": "CDS0083", "title": "디자인원리와권리", "credits": 3 },
+        { "code": "LIS4017", "title": "지식재산권의이해", "credits": 3 },
+        { "code": "CDS0027", "title": "시각콘텐츠디자인", "credits": 3 }
+      ]
+    },
+    {
+      "no": 27,
+      "name": "지식재산ICT 마이크로디그리",
+      "criteria": "편성 교과목(5과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "CLT0582", "title": "과학기술과지식재산", "credits": 3 },
+        { "code": "ECE6001", "title": "전자통신개론", "credits": 3 },
+        {
+          "code": "PCE1001",
+          "title": "인공지능과첨단기술의이해",
+          "credits": 3
+        },
+        { "code": "ECE8013", "title": "컴퓨터통신", "credits": 3 },
+        { "code": "ECE7002", "title": "디지털공학", "credits": 3 }
+      ]
+    },
+    {
+      "no": 28,
+      "name": "그린바이오공정 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "CHM2008", "title": "유기화학", "credits": 3 },
+        { "code": "BST2010", "title": "생물분석화학", "credits": 3 },
+        { "code": "CHM2005", "title": "생화학1", "credits": 3 },
+        { "code": "BST3005", "title": "생물분리공정", "credits": 3 },
+        { "code": "FST3001", "title": "식품공학", "credits": 3 },
+        { "code": "FST9046", "title": "식품발효공학", "credits": 3 }
+      ]
+    },
+    {
+      "no": 29,
+      "name": "융합기계시스템설계 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "MAE9015", "title": "정역학", "credits": 3 },
+        { "code": "MAE2007", "title": "기구학", "credits": 3 },
+        { "code": "MAE2012", "title": "동역학", "credits": 3 },
+        { "code": "MAE9018", "title": "시스템공학및신호처리", "credits": 3 },
+        { "code": "MAE9023", "title": "창의적공학설계", "credits": 3 },
+        { "code": "BSE0011", "title": "바이오시스템기계설계", "credits": 3 }
+      ]
+    },
+    {
+      "no": 30,
+      "name": "융합기계재료 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "ENV1005", "title": "공학설계입문", "credits": 3 },
+        { "code": "ENG1003", "title": "공학수학1", "credits": 3 },
+        { "code": "MAE9017", "title": "고체역학", "credits": 3 },
+        { "code": "MAE2009", "title": "기계재료학", "credits": 3 },
+        { "code": "ENG2004", "title": "공학수학2", "credits": 3 },
+        { "code": "CHE4033", "title": "의공학개론", "credits": 3 }
+      ]
+    },
+    {
+      "no": 31,
+      "name": "디지털원예 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "HRT4041", "title": "화훼원예학", "credits": 3 },
+        { "code": "HRT4064", "title": "과수원예학", "credits": 3 },
+        { "code": "HRT4007", "title": "원예학개론", "credits": 3 },
+        { "code": "HRT4016", "title": "원예작물번식학및실습", "credits": 3 },
+        { "code": "HRT2019", "title": "화훼육종학및실습", "credits": 3 },
+        { "code": "GEN4026", "title": "식물조직배양학및실습", "credits": 3 }
+      ]
+    },
+    {
+      "no": 32,
+      "name": "디지털농생명 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "BIO3067", "title": "분자생물학", "credits": 3 },
+        { "code": "GEN4019", "title": "분자생명공학", "credits": 3 },
+        { "code": "GEN3003", "title": "동물유전공학", "credits": 3 },
+        { "code": "GEN4024", "title": "분자유전체학", "credits": 3 },
+        { "code": "GEN4025", "title": "응용미생물학및실험", "credits": 3 },
+        { "code": "AGC3010", "title": "식물영양학", "credits": 3 }
+      ]
+    },
+    {
+      "no": 33,
+      "name": "그린에코시스템 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "AGC3007", "title": "비료학", "credits": 3 },
+        { "code": "AGC4016", "title": "생물학적복원학", "credits": 3 },
+        { "code": "AGC4020", "title": "환경안전및평가", "credits": 3 },
+        { "code": "AGC2007", "title": "생물자원에너지공학", "credits": 3 },
+        { "code": "CHE3029", "title": "미생물학", "credits": 3 },
+        { "code": "BST3005", "title": "생물분리공정", "credits": 3 }
+      ]
+    },
+    {
+      "no": 34,
+      "name": "푸드테크 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "FST3015", "title": "식품가공학", "credits": 3 },
+        { "code": "BIO7001", "title": "식품미생물학및실험", "credits": 3 },
+        { "code": "FDN2001", "title": "식품화학", "credits": 3 },
+        { "code": "FST3003", "title": "영양화학", "credits": 3 },
+        {
+          "code": "BSE0006",
+          "title": "바이오시스템로봇공학및실습",
+          "credits": 3
+        },
+        { "code": "AGE4075", "title": "바이오시스템공학생물", "credits": 3 }
+      ]
+    },
+    {
+      "no": 35,
+      "name": "애그테크스마트팜 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "AGE3041", "title": "컴퓨터응용공학설계", "credits": 3 },
+        {
+          "code": "AGE4076",
+          "title": "바이오시스템전자회로및실습",
+          "credits": 3
+        },
+        { "code": "AGE4002", "title": "생물산업기계제어", "credits": 3 },
+        { "code": "AGE3001", "title": "농작업기계학및실습", "credits": 3 },
+        { "code": "HRT4040", "title": "노지과수ICT적용론", "credits": 3 },
+        { "code": "HRT4059", "title": "화훼품질유지및관리론", "credits": 3 }
+      ]
+    },
+    {
+      "no": 36,
+      "name": "디지털육종 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "CRP2012", "title": "종자학", "credits": 3 },
+        { "code": "BIO2020", "title": "유전학", "credits": 3 },
+        { "code": "CRP3013", "title": "작물분자육종학", "credits": 3 },
+        {
+          "code": "CRP4025",
+          "title": "농업컴퓨터프로그래밍및실습",
+          "credits": 3
+        },
+        { "code": "BIO3046", "title": "식물생리학", "credits": 3 },
+        { "code": "GEN4025", "title": "응용미생물학및실험", "credits": 3 }
+      ]
+    },
+    {
+      "no": 37,
+      "name": "디지털인문예술융합 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 15학점(5과목) 이수",
+      "term": "2024. 2학기",
+      "courses": [
+        { "code": "ELL9063", "title": "대중서사와디지털콘텐츠", "credits": 3 },
+        { "code": "ELL9033", "title": "현대미국소설", "credits": 3 },
+        { "code": "CLL4026", "title": "중국의역사와인물", "credits": 3 },
+        { "code": "COM4027", "title": "디지털미디어와사회", "credits": 3 },
+        { "code": "CLT0961", "title": "인공지능기초", "credits": 3 },
+        { "code": "HIS4002", "title": "서양사특강", "credits": 3 }
+      ]
+    },
+    {
+      "no": 38,
+      "name": "사물지능(AIoT) 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2025. 1학기",
+      "courses": [
+        { "code": "CPE6003", "title": "C언어프로그래밍및실습", "credits": 3 },
+        { "code": "CPE9039", "title": "파이썬프로그래밍", "credits": 3 },
+        { "code": "CLT0961", "title": "인공지능기초", "credits": 3 },
+        { "code": "CIS3003", "title": "인공지능", "credits": 3 },
+        { "code": "CPE9034", "title": "임베디드하드웨어개론", "credits": 3 },
+        { "code": "CPE9037", "title": "빅데이터분석및실습", "credits": 3 }
+      ]
+    },
+    {
+      "no": 39,
+      "name": "차세대통신기초 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2025. 1학기",
+      "courses": [
+        { "code": "ENV1005", "title": "공학설계입문", "credits": 3 },
+        {
+          "code": "CLT0868",
+          "title": "공학을위한컴퓨터과학적사고",
+          "credits": 3
+        },
+        { "code": "CLT0987", "title": "미래ICT융합기술의이해", "credits": 3 },
+        { "code": "PHY2013", "title": "전자기학1", "credits": 3 },
+        { "code": "ENG1003", "title": "공학수학1", "credits": 3 },
+        { "code": "SAI0031", "title": "정보보안개론", "credits": 3 }
+      ]
+    },
+    {
+      "no": 40,
+      "name": "AI기반도시및조경계획설계 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2025. 1학기",
+      "courses": [
+        { "code": "LAR2012", "title": "컴퓨터조경설계", "credits": 3 },
+        { "code": "LAR2020", "title": "조경설계미디어", "credits": 3 },
+        { "code": "LAR4037", "title": "GIS및도시공간분석", "credits": 3 },
+        { "code": "LAR3004", "title": "공원계획및실습", "credits": 3 },
+        { "code": "LAR4035", "title": "조경시설물설계", "credits": 3 },
+        { "code": "CIS3003", "title": "인공지능", "credits": 3 }
+      ]
+    },
+    {
+      "no": 41,
+      "name": "미디어데이터분석 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2025. 1학기",
+      "courses": [
+        { "code": "DSC0001", "title": "데이터사이언스개론", "credits": 3 },
+        { "code": "DSC0002", "title": "소셜데이터분석및시각화", "credits": 3 },
+        { "code": "DSC0003", "title": "데이터서비스플랫폼", "credits": 3 },
+        { "code": "DSC0009", "title": "데이터과학고급통계", "credits": 3 },
+        { "code": "MTC0001", "title": "휴먼미디어상호작용", "credits": 3 },
+        { "code": "MTC0010", "title": "인터렉션프로그래밍", "credits": 3 }
+      ]
+    },
+    {
+      "no": 42,
+      "name": "간호인공지능 마이크로디그리",
+      "criteria": "편성 교과목(7과목) 중 13학점 이수",
+      "term": "2025. 1학기",
+      "courses": [
+        { "code": "NSS2006", "title": "간호정보학", "credits": 2 },
+        { "code": "NSS4134", "title": "헬스케어데이터분석", "credits": 2 },
+        { "code": "NSS4126", "title": "간호와AI", "credits": 2 },
+        { "code": "CLT0961", "title": "인공지능기초", "credits": 3 },
+        {
+          "code": "CLT0949",
+          "title": "의생명과학을위한컴퓨터과학적사고",
+          "credits": 3
+        },
+        { "code": "CIS3003", "title": "인공지능", "credits": 3 },
+        { "code": "SAI0030", "title": "파이썬프로그래밍및실습", "credits": 3 }
+      ]
+    },
+    {
+      "no": 43,
+      "name": "의료인공지능 마이크로디그리",
+      "criteria": "편성 교과목(5과목) 중 12학점(4과목) 이수",
+      "term": "2025. 1학기",
+      "courses": [
+        { "code": "CLT0961", "title": "인공지능기초", "credits": 3 },
+        { "code": "CIS9016", "title": "데이터과학기초및실습", "credits": 3 },
+        { "code": "HME8007", "title": "의료패턴인식", "credits": 3 },
+        { "code": "HME8006", "title": "인공신경망입문", "credits": 3 },
+        { "code": "HME9002", "title": "의료인공지능", "credits": 3 }
+      ]
+    },
+    {
+      "no": 44,
+      "name": "지능형헬스케어시스템 마이크로디그리",
+      "criteria": "편성 교과목(5과목) 중 12학점(4과목) 이수",
+      "term": "2025. 1학기",
+      "courses": [
+        { "code": "CLT0961", "title": "인공지능기초", "credits": 3 },
+        { "code": "HME8001", "title": "오픈소스입문", "credits": 3 },
+        { "code": "HME8004", "title": "마이크로컨트롤러실습", "credits": 3 },
+        { "code": "CPE9046", "title": "IoT시스템", "credits": 3 },
+        { "code": "HME9005", "title": "헬스케어정보시스템", "credits": 3 }
+      ]
+    },
+    {
+      "no": 45,
+      "name": "지능형생체신호분석 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 15학점(5과목) 이수",
+      "term": "2025. 1학기",
+      "courses": [
+        { "code": "CLT0961", "title": "인공지능기초", "credits": 3 },
+        { "code": "HME7002", "title": "의용프로그래밍및실습", "credits": 3 },
+        { "code": "ECE2003", "title": "신호및시스템", "credits": 3 },
+        { "code": "ECE3030", "title": "디지털신호처리", "credits": 3 },
+        { "code": "BME8021", "title": "생체신호처리및실습", "credits": 3 },
+        { "code": "HME9003", "title": "메디컬데이터해석", "credits": 3 }
+      ]
+    },
+    {
+      "no": 46,
+      "name": "인공지능비즈니스중급 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2025. 1학기",
+      "courses": [
+        { "code": "ENV1001", "title": "확률및통계", "credits": 3 },
+        { "code": "CLT0961", "title": "인공지능기초", "credits": 3 },
+        {
+          "code": "CLT0983",
+          "title": "데이터기반비즈니스컴퓨팅",
+          "credits": 3
+        },
+        { "code": "BUS9089", "title": "인공지능비즈니스개론", "credits": 3 },
+        { "code": "BUS2032", "title": "경영정보와빅데이터", "credits": 3 },
+        { "code": "BUS9090", "title": "인공지능콘텐츠이해와활용", "credits": 3 }
+      ]
+    },
+    {
+      "no": 47,
+      "name": "AI융합항만물류 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "LOG6001", "title": "물류개론", "credits": 3 },
+        { "code": "LOG7012", "title": "화물운송론", "credits": 3 },
+        { "code": "LOG8008", "title": "항만운영관리론", "credits": 3 },
+        { "code": "BUS9018", "title": "e-비즈니스전략론", "credits": 3 },
+        { "code": "CPE9039", "title": "파이썬프로그래밍", "credits": 3 },
+        { "code": "CPE7007", "title": "인공지능개론", "credits": 3 }
+      ]
+    },
+    {
+      "no": 48,
+      "name": "AI물리교육융합 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "AIC0023", "title": "딥러닝", "credits": 3 },
+        { "code": "CIS3003", "title": "인공지능", "credits": 3 },
+        { "code": "ECE2011", "title": "선형대수학", "credits": 3 },
+        { "code": "PHY2018", "title": "전산물리학및실습", "credits": 3 },
+        { "code": "EPH3004", "title": "전자기학교육2", "credits": 3 },
+        { "code": "PHY3016", "title": "전자물리학", "credits": 3 }
+      ]
+    },
+    {
+      "no": 49,
+      "name": "AI융합푸드테크 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "DGS0001", "title": "그린바이오시스템개론", "credits": 3 },
+        { "code": "FST9059", "title": "그린바이오신소재학", "credits": 3 },
+        { "code": "FST9064", "title": "응용식품가공학", "credits": 3 },
+        { "code": "FST9067", "title": "AI식품공학", "credits": 3 },
+        { "code": "CLT0961", "title": "인공지능기초", "credits": 3 },
+        { "code": "CPE9020", "title": "기계학습", "credits": 3 }
+      ]
+    },
+    {
+      "no": 50,
+      "name": "그린바이오동물생명환경 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "ANS3009", "title": "유가공학및실습", "credits": 3 },
+        { "code": "ANS4055", "title": "동물세포학및실험", "credits": 3 },
+        { "code": "ANS4056", "title": "동물생화학및실험1", "credits": 3 },
+        { "code": "ANS4057", "title": "동물생화학및실험2", "credits": 3 },
+        { "code": "AGC2007", "title": "생물자원에너지공학", "credits": 3 },
+        { "code": "AGC4024", "title": "농업환경생화학", "credits": 3 }
+      ]
+    },
+    {
+      "no": 51,
+      "name": "그린바이오동물생산시스템 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "ANS2013", "title": "동물번식학및실험", "credits": 3 },
+        {
+          "code": "ANS4101",
+          "title": "농장동물행동복지와스트레스",
+          "credits": 3
+        },
+        { "code": "ANS2018", "title": "동물영양학및실험", "credits": 3 },
+        { "code": "ANS3013", "title": "육가공학및실험", "credits": 3 },
+        { "code": "DGS0001", "title": "그린바이오시스템개론", "credits": 3 },
+        { "code": "DGS0002", "title": "그린바이오시스템콜로퀴엄", "credits": 3 }
+      ]
+    },
+    {
+      "no": 52,
+      "name": "디지털트윈농업 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "ECE9065", "title": "차세대통신과컴퓨팅", "credits": 3 },
+        { "code": "CIS3031", "title": "데이터베이스시스템", "credits": 3 },
+        {
+          "code": "ECE3099",
+          "title": "다학제응용을위한통계및인공지능",
+          "credits": 3
+        },
+        { "code": "SAI0025", "title": "영상이해", "credits": 3 },
+        { "code": "BSE0012", "title": "디지털농업공학", "credits": 3 },
+        { "code": "BSE0007", "title": "바이오시스템모델링및실습", "credits": 3 }
+      ]
+    },
+    {
+      "no": 53,
+      "name": "자율주행기초 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        {
+          "code": "CLT0868",
+          "title": "공학을위한컴퓨터과학적사고",
+          "credits": 3
+        },
+        { "code": "SAI0030", "title": "파이썬프로그래밍및실습", "credits": 3 },
+        { "code": "IIM0019", "title": "자료구조와알고리즘", "credits": 3 },
+        { "code": "CIS3003", "title": "인공지능", "credits": 3 },
+        { "code": "IIM0035", "title": "모빌리티자율주행1", "credits": 3 },
+        { "code": "IIM0039", "title": "모빌리티인식시스템", "credits": 3 }
+      ]
+    },
+    {
+      "no": 54,
+      "name": "피지컬인공지능 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "ECE9049", "title": "IoT컴퓨팅", "credits": 3 },
+        { "code": "ECE3036", "title": "제어공학", "credits": 3 },
+        { "code": "SAI0017", "title": "지능로봇응용", "credits": 3 },
+        { "code": "MPE0051", "title": "컴퓨터비전", "credits": 3 },
+        { "code": "SAI0018", "title": "강화학습", "credits": 3 },
+        {
+          "code": "BSE0006",
+          "title": "바이오시스템로봇공학및실습",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "no": 55,
+      "name": "디지털그린바이오테크소재입문 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "GEN4029", "title": "식물분자생물학개론", "credits": 3 },
+        { "code": "DGM0001", "title": "그린바이오소재개론", "credits": 3 },
+        { "code": "GBO1021", "title": "바이오세라피개론", "credits": 3 },
+        { "code": "GBO1023", "title": "그린바이오현미경개론", "credits": 3 },
+        { "code": "GBO1005", "title": "식물생산과학입문", "credits": 3 },
+        { "code": "BST4076", "title": "의공학기초와입문", "credits": 3 }
+      ]
+    },
+    {
+      "no": 56,
+      "name": "그린바이오에코시스템입문 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "AGC4027", "title": "생물자원에너지학개론", "credits": 3 },
+        { "code": "GBO1008", "title": "목재물리역학개론", "credits": 3 },
+        { "code": "GBO1010", "title": "스마트산림번식학", "credits": 3 },
+        { "code": "GBO1006", "title": "그린포레스트자원학", "credits": 3 },
+        {
+          "code": "GBO1004",
+          "title": "그린바이오산업과가치창출",
+          "credits": 3
+        },
+        { "code": "GBO1015", "title": "식물과기후변화", "credits": 3 }
+      ]
+    },
+    {
+      "no": 57,
+      "name": "그린바이오파운드리입문 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "BSE0015", "title": "첨단농업기계공학의기초", "credits": 3 },
+        { "code": "DGS0001", "title": "그린바이오시스템개론", "credits": 3 },
+        { "code": "DGS0003", "title": "로봇공학입문", "credits": 3 },
+        {
+          "code": "GBO2027",
+          "title": "농업용빅데이터분석의기초",
+          "credits": 3
+        },
+        {
+          "code": "GBO2019",
+          "title": "그린생산시스템과산업의이해",
+          "credits": 3
+        },
+        { "code": "GBO2018", "title": "그린바이오식품생산", "credits": 3 }
+      ]
+    },
+    {
+      "no": 58,
+      "name": "그린바이오파운드리응용 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "FST9059", "title": "그린바이오신소재학", "credits": 3 },
+        { "code": "GBO2008", "title": "스마트저장유통기술", "credits": 3 },
+        { "code": "GBO2022", "title": "스마트식품가공시스템", "credits": 3 },
+        { "code": "GBO2026", "title": "식품의혁신:푸드테크", "credits": 3 },
+        {
+          "code": "GBO2009",
+          "title": "유전자조작기술:먹거리부터의학품까지",
+          "credits": 3
+        },
+        { "code": "GBO2040", "title": "그린바이오비즈니스", "credits": 3 }
+      ]
+    },
+    {
+      "no": 59,
+      "name": "그린바이오스마트파밍입문 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        { "code": "GEN4028", "title": "동물세포공학입문", "credits": 3 },
+        { "code": "GBO2011", "title": "첨단한우실무", "credits": 3 },
+        { "code": "GBO2028", "title": "스마트팜환경관리", "credits": 3 },
+        { "code": "GBO2015", "title": "스마트양돈실무", "credits": 3 },
+        { "code": "GBO2016", "title": "스마트한우실무", "credits": 3 },
+        { "code": "GBO2031", "title": "첨단양돈실무", "credits": 3 }
+      ]
+    },
+    {
+      "no": 60,
+      "name": "그린바이오스마트파밍심화 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 1학기",
+      "courses": [
+        {
+          "code": "ANS4101",
+          "title": "농장동물행동복지와스트레스",
+          "credits": 3
+        },
+        {
+          "code": "GBO2007",
+          "title": "스마트낙농유가공및유산균과학",
+          "credits": 3
+        },
+        { "code": "GBO2039", "title": "경제동물과반려동물학", "credits": 3 },
+        { "code": "GBO2035", "title": "스마트팜영양관리", "credits": 3 },
+        { "code": "GBO2042", "title": "극한환경농업", "credits": 3 },
+        { "code": "GBO2045", "title": "친환경농업현장관리기술", "credits": 3 }
+      ]
+    },
+    {
+      "no": 61,
+      "name": "양자정보통신 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 2학기",
+      "courses": [
+        { "code": "ECE2011", "title": "선형대수학", "credits": 3 },
+        { "code": "SAI0031", "title": "정보보안개론", "credits": 3 },
+        { "code": "NCCS054", "title": "양자정보이론기초", "credits": 3 },
+        { "code": "NCCS055", "title": "양자클라우드기초", "credits": 3 },
+        { "code": "CIS3016", "title": "알고리즘", "credits": 3 },
+        { "code": "NCCS059", "title": "양자보안통신", "credits": 3 }
+      ]
+    },
+    {
+      "no": 62,
+      "name": "6G모빌리티통신 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 2학기",
+      "courses": [
+        { "code": "PHY2013", "title": "전자기학1", "credits": 3 },
+        { "code": "NCCS025", "title": "미래모빌리티통신", "credits": 3 },
+        { "code": "NCCS038", "title": "모빌리티레이다공학", "credits": 3 },
+        { "code": "NCCS039", "title": "NTN위성통신", "credits": 3 },
+        { "code": "ECE3011", "title": "초고주파공학", "credits": 3 },
+        { "code": "ECE3088", "title": "임베디드소프트웨어", "credits": 3 }
+      ]
+    },
+    {
+      "no": 63,
+      "name": "디지털경제 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 2학기",
+      "courses": [
+        { "code": "BUS9106", "title": "글로벌금융시장론", "credits": 3 },
+        { "code": "ECN7001", "title": "거시경제학", "credits": 3 },
+        {
+          "code": "HUSS001",
+          "title": "AI시대의인문사회데이터읽기",
+          "credits": 3
+        },
+        { "code": "HUSS005", "title": "AI생태계", "credits": 3 },
+        { "code": "BUS9070", "title": "동아시아기업과경영", "credits": 3 },
+        { "code": "ECE9058", "title": "인공지능", "credits": 3 }
+      ]
+    },
+    {
+      "no": 64,
+      "name": "AI비즈니스 마이크로디그리",
+      "criteria": "편성 교과목(6과목) 중 12학점(4과목) 이수",
+      "term": "2026. 2학기",
+      "courses": [
+        { "code": "HUSS005", "title": "AI생태계", "credits": 3 },
+        { "code": "STT2004", "title": "의사결정론", "credits": 3 },
+        { "code": "BUS9074", "title": "금융공학의이해", "credits": 3 },
+        { "code": "ECE9059", "title": "데이터사이언스", "credits": 3 },
+        { "code": "BUS9044", "title": "창업기술경영", "credits": 3 },
+        { "code": "ECE9058", "title": "인공지능", "credits": 3 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "jnu-graduation-planner",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Macro-free .xlsx graduation planner for Chonnam National University (JNU), generated from CSV curriculum data.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsx src/main.ts",
+    "web:data": "tsx scripts/prepare-web-data.ts",
+    "web:bundle": "esbuild src/web/generate.ts --bundle --minify --format=esm --outfile=website/generate.bundle.js",
+    "web:build": "npm run web:data && npm run web:bundle",
+    "typecheck": "tsc --noEmit",
+    "preview": "npx --yes serve website -l 4173",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "esbuild": "^0.24.0",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0"
+  }
+}

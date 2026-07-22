@@ -1,0 +1,250 @@
+:root {
+  --bg: #f7f8fa;
+  --fg: #1f2430;
+  --muted: #5a6473;
+  --accent: #1f3a5f;
+  --accent-hover: #284c7e;
+  --card: #ffffff;
+  --border: #e2e6ec;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo',
+    'Malgun Gothic', sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin: 0 0 0.75rem;
+  color: var(--accent);
+}
+
+.tagline {
+  color: var(--muted);
+  margin: 0;
+}
+
+.generator {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem 1.25rem 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.generator fieldset {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin: 0 0 1.25rem;
+  padding: 1rem 1rem 1.25rem;
+}
+
+.generator legend {
+  font-weight: 700;
+  color: var(--accent);
+  padding: 0 0.4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem 1rem;
+}
+
+.generator label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  color: var(--muted);
+  gap: 0.3rem;
+}
+
+.generator input,
+.generator select {
+  font: inherit;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--fg);
+}
+
+.hint {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: 0.75rem 0 0;
+}
+
+/* The `hidden` attribute must win over the explicit `display` values set on
+   `.field` / `.major-track-field`; without this the 세부전공 selector stays
+   visible when 주전공(또는 복수/부전공) is not a 학부. */
+[hidden] {
+  display: none !important;
+}
+
+.field {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--fg);
+}
+
+.field > select {
+  display: block;
+  margin-top: 0.4rem;
+  font: inherit;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--fg);
+  min-width: 16rem;
+}
+
+.field-label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.major-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.major-row select {
+  font: inherit;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  /* Fixed widths keep the row layout stable; long option text is clipped with
+     an ellipsis rather than stretching the control. */
+  flex: 0 0 auto;
+  max-width: 100%;
+  text-overflow: ellipsis;
+}
+
+.major-catalog {
+  width: 14rem;
+}
+
+.major-track-field {
+  display: inline-flex;
+}
+
+.major-track {
+  width: 9rem;
+}
+
+.major-role {
+  width: 7rem;
+}
+
+.major-remove,
+.btn-secondary {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--fg);
+  border-radius: 6px;
+  padding: 0.45rem 0.8rem;
+}
+
+.btn-secondary:hover,
+.major-remove:hover {
+  background: var(--bg);
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  padding: 0.85rem 1.75rem;
+  border-radius: 8px;
+  transition: background 0.15s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--accent-hover);
+}
+
+.status {
+  margin: 1rem 0 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+  min-height: 1.4em;
+}
+
+.status--ok {
+  color: #1b7a3d;
+}
+
+.status--error {
+  color: #b3261e;
+}
+
+section h2 {
+  font-size: 1.2rem;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.4rem;
+}
+
+.features ul,
+.usage ol {
+  padding-left: 1.25rem;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.9rem;
+  background: #fff7e6;
+  border: 1px solid #f0e0b8;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+code {
+  background: #eef0f3;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+footer a {
+  color: var(--accent);
+}

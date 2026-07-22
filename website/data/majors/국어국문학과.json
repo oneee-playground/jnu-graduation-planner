@@ -1,0 +1,419 @@
+{
+  "id": "국어국문학과",
+  "displayName": "국어국문학과",
+  "defaultThresholds": {
+    "genReq": 14,
+    "genElec": 16,
+    "majorReq": 12,
+    "majorElec": 30,
+    "majorAdv": 21,
+    "genSelect": 37,
+    "total": 130,
+    "minGpa": 1.75,
+    "genMax": 45,
+    "secondMajor": 42,
+    "minorCredits": 21
+  },
+  "courses": [
+    {
+      "year": 0,
+      "term": 0,
+      "reqCategory": "교선",
+      "title": "한문",
+      "code": "CLT0002",
+      "credits": 3
+    },
+    {
+      "year": 0,
+      "term": 0,
+      "reqCategory": "교선",
+      "title": "진로설계와자기이해",
+      "code": "CLT0771",
+      "credits": 2
+    },
+    {
+      "year": 0,
+      "term": 0,
+      "reqCategory": "교선",
+      "title": "문학과인간",
+      "code": "CLT0851",
+      "credits": 3
+    },
+    {
+      "year": 0,
+      "term": 0,
+      "reqCategory": "교선",
+      "title": "성찰과소통을위한글쓰기",
+      "code": "CLT0888",
+      "credits": 3
+    },
+    {
+      "year": 0,
+      "term": 0,
+      "reqCategory": "교선",
+      "title": "디지털인문학",
+      "code": "CLT0946",
+      "credits": 3
+    },
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "한국고전문학개론",
+      "code": "KLL1002",
+      "credits": 3
+    },
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "국어학의기초와이해",
+      "code": "KLL4020",
+      "credits": 3
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "한국현대문학개론",
+      "code": "KLL1005",
+      "credits": 3
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "국어음운의이해",
+      "code": "KLL4022",
+      "credits": 3
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "국어단어와형태의이해",
+      "code": "KLL4023",
+      "credits": 3
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "민속학과문화융복합",
+      "code": "KLL4051",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "국어교육론",
+      "code": "EKL1003",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "한국고소설론",
+      "code": "KLL2003",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "한국현대소설강독",
+      "code": "KLL2010",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "한국현대시강독",
+      "code": "KLL2011",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "한국한시감상",
+      "code": "KLL2015",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "국어어문규범의이해",
+      "code": "KLL4024",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "현대국어문법의이해",
+      "code": "KLL4042",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "지역어문학과문화융합(캡스톤디자인)",
+      "code": "KLL4045",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "현대희곡과연극",
+      "code": "KLL4059",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "시조가사론",
+      "code": "KLL2006",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "현대시론",
+      "code": "KLL2007",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "한국한문학의이해",
+      "code": "KLL2017",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "국어의미의이해",
+      "code": "KLL4025",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "중세국어문법의이해",
+      "code": "KLL4026",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "현대소설과서사미디어",
+      "code": "KLL4048",
+      "credits": 3
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "스토리텔링과콘텐츠산업",
+      "code": "KLL4062",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "문학비평론",
+      "code": "KLL3010",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "향가여요론",
+      "code": "KLL4002",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "국어학문헌강독",
+      "code": "KLL4030",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "외국어로서의한국어교육",
+      "code": "KLL4050",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "구술문학과무형문화유산",
+      "code": "KLL4052",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "말뭉치의이해와실제",
+      "code": "KLL4055",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "문학창작과창의적글쓰기",
+      "code": "KLL4057",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "현대영상문학론",
+      "code": "KLL4063",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "한국고전문학사",
+      "code": "KLL3002",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "한국현대문학사",
+      "code": "KLL3004",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "한국고수필론",
+      "code": "KLL3009",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "국어방언의이해와실제",
+      "code": "KLL4029",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "국어역사의이해",
+      "code": "KLL4032",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "현대시인과문화리소스",
+      "code": "KLL4047",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "외국어로서의한국어문법교육론",
+      "code": "KLL4056",
+      "credits": 3
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "드라마와문화연구",
+      "code": "KLL4061",
+      "credits": 3
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "국어교재연구및지도법",
+      "code": "EDU0087",
+      "credits": 3
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "국어논리및논술교육",
+      "code": "EKL4004",
+      "credits": 2
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "로컬문학과고전문학",
+      "code": "KLL4035",
+      "credits": 3
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "문학플러스",
+      "code": "KLL4037",
+      "credits": 3
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "언어정보의이해와실제",
+      "code": "KLL4053",
+      "credits": 3
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "사회언어학의이해",
+      "code": "KLL4049",
+      "credits": 3
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "뉴미디어콘텐츠와고전문학읽기",
+      "code": "KLL4058",
+      "credits": 3
+    }
+  ]
+}

@@ -1,0 +1,821 @@
+{
+  "id": "인공지능학부",
+  "displayName": "인공지능학부",
+  "defaultThresholds": {
+    "genReq": 18,
+    "genElec": 18,
+    "majorReq": 15,
+    "majorElec": 33,
+    "majorAdv": 21,
+    "genSelect": 35,
+    "total": 140,
+    "minGpa": 1.75,
+    "genMax": 45,
+    "secondMajor": 48,
+    "minorCredits": 27
+  },
+  "tracks": ["인공지능", "소프트웨어", "정보보안"],
+  "courses": [
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "C프로그래밍및실습",
+      "code": "CIS9017",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "교필",
+      "title": "수학1",
+      "code": "CLT0082",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "교필",
+      "title": "경제학개론",
+      "code": "CLT0763",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "교필",
+      "title": "공학을위한컴퓨터과학적사고",
+      "code": "CLT0868",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "교필",
+      "title": "과학기술글쓰기",
+      "code": "CLT0894",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "공학설계입문",
+      "code": "ENV1005",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "교필",
+      "title": "기술과창업",
+      "code": "CLT0706",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "교필",
+      "title": "기초통계학",
+      "code": "CLT0933",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "논리회로",
+      "code": "ECE2010",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "공학수학1",
+      "code": "ENG1003",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "이산수학",
+      "code": "MTH2010",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 1,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "파이썬프로그래밍및실습",
+      "code": "SAI0030",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "컴퓨터구조",
+      "code": "CIS2004",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "리눅스시스템",
+      "code": "CIS2010",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전필",
+      "title": "자료구조",
+      "code": "CIS3001",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "선형대수학",
+      "code": "ECE2011",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "확률및통계",
+      "code": "ENV1001",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "정보보안개론",
+      "code": "SAI0031",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "웹프로그래밍및실습",
+      "code": "STT3015",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 1,
+      "reqCategory": "전필",
+      "title": "JAVA프로그래밍및실습",
+      "code": "STT3019",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "운영체제",
+      "code": "CIS2001",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전필",
+      "title": "인공지능",
+      "code": "CIS3003",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전필",
+      "title": "알고리즘",
+      "code": "CIS3016",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "시스템프로그래밍",
+      "code": "ECE3043",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "소프트웨어시스템설계",
+      "code": "SAI0001",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "오픈소스소프트웨어",
+      "code": "SAI0003",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "네트워크개론",
+      "code": "SAI0032",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 2,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "C++프로그래밍및실습",
+      "code": "STT2008",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "인공지능설계프로젝트",
+      "code": "AIC0012",
+      "credits": 3,
+      "note": "인공지능, 소프트웨어"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "데이타베이스시스템",
+      "code": "CIS3009",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "모바일응용소프트웨어",
+      "code": "CIS4022",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "기계학습",
+      "code": "CPE9020",
+      "credits": 3,
+      "note": "인공지능, 정보보안"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "데이터통신",
+      "code": "ECE3007",
+      "credits": 3,
+      "note": "인공지능, 소프트웨어"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "인공지능시스템",
+      "code": "SAI0028",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "IoT시스템",
+      "code": "SAI0052",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "소프트웨어개발론",
+      "code": "BUS8009",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "프로그래밍언어론",
+      "code": "CIS2003",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "임베디드소프트웨어",
+      "code": "ECE3044",
+      "credits": 3,
+      "note": "소프트웨어, 정보보안"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "지능HCI",
+      "code": "SAI0023",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "애플리케이션보안",
+      "code": "SAI0033",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "네트워크보안",
+      "code": "SAI0034",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 3,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "암호학개론",
+      "code": "SAI0035",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "딥러닝",
+      "code": "AIC0023",
+      "credits": 3,
+      "note": "인공지능, 정보보안"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "컴퓨터네트워크",
+      "code": "ECE3026",
+      "credits": 3,
+      "note": "인공지능, 소프트웨어"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "데이터마이닝",
+      "code": "IDE3035",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "데이터과학",
+      "code": "SAI0002",
+      "credits": 3,
+      "note": "인공지능, 소프트웨어"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "영상이해",
+      "code": "SAI0025",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "산학협력프로젝트(캡스톤디자인)",
+      "code": "SAI0029",
+      "credits": 3,
+      "note": "공통"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "인공지능실무프로젝트",
+      "code": "SAI0051",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "가상현실",
+      "code": "CIS3004",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "컴퓨터그래픽스",
+      "code": "CIS3020",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "소프트웨어공학론",
+      "code": "CIS3030",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "시스템보안",
+      "code": "SAI0036",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "인공지능보안",
+      "code": "SAI0037",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "사이버공방실습",
+      "code": "SAI0038",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "소프트웨어개발보안",
+      "code": "SAI0039",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 3,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "정보보호관리체계",
+      "code": "SAI0055",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "신호처리",
+      "code": "MAE2019",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "컴퓨터비전",
+      "code": "MPE0051",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전필",
+      "title": "인공지능캡스톤디자인",
+      "code": "SAI0008",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "로봇프로그래밍",
+      "code": "SAI0010",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "자연어처리",
+      "code": "SAI0026",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "인공지능소프트웨어개발및운영파이프라인",
+      "code": "SAI0049",
+      "credits": 3,
+      "note": "인공지능, 소프트웨어"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "컴파일러",
+      "code": "CIS4004",
+      "credits": 3,
+      "note": "소프트웨어, 정보보안"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "영상처리",
+      "code": "ECE4004",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "클라우드컴퓨팅",
+      "code": "ECE9054",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전필",
+      "title": "소프트웨어캡스톤디자인",
+      "code": "SAI0011",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "고급알고리즘",
+      "code": "SAI0013",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "게임소프트웨어",
+      "code": "SAI0014",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "소프트웨어리버스엔지니어링",
+      "code": "SAI0024",
+      "credits": 3,
+      "note": "소프트웨어, 정보보안"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "고급정보보안",
+      "code": "SAI0040",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전필",
+      "title": "정보보안캡스톤디자인",
+      "code": "SAI0042",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "디지털포렌식",
+      "code": "SAI0043",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 4,
+      "term": 1,
+      "reqCategory": "전선",
+      "title": "클라우드컴퓨팅과보안",
+      "code": "SAI0044",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "생체신호계측기술",
+      "code": "AIC0022",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "확률그래프모델",
+      "code": "SAI0015",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "지능로봇응용",
+      "code": "SAI0017",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "강화학습",
+      "code": "SAI0018",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "음성인식",
+      "code": "SAI0027",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "생성형AI",
+      "code": "SAI0054",
+      "credits": 3,
+      "note": "인공지능"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "분산시스템",
+      "code": "CIS3012",
+      "credits": 3,
+      "note": "소프트웨어, 정보보안"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "병렬프로그래밍",
+      "code": "SAI0005",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "소프트웨어검증",
+      "code": "SAI0021",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "컴퓨터시뮬레이션",
+      "code": "SAI0022",
+      "credits": 3,
+      "note": "소프트웨어"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "블록체인응용",
+      "code": "SAI0020",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "침해및사고대응",
+      "code": "SAI0045",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "사물인터넷보안",
+      "code": "SAI0046",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "산업제어시스템보안",
+      "code": "SAI0047",
+      "credits": 3,
+      "note": "정보보안"
+    },
+    {
+      "year": 4,
+      "term": 2,
+      "reqCategory": "전선",
+      "title": "프로그램분석기법",
+      "code": "SAI0048",
+      "credits": 3,
+      "note": "정보보안"
+    }
+  ]
+}

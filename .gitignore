@@ -1,0 +1,20 @@
+# Mac OS
+.DS_Store
+*.DS_Store
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Build output
+*.xlsx
+!references/**/*.xlsx
+
+# Generated website artifacts (produced by `npm run web:build` in CI)
+website/generate.bundle.js
+website/data/genedu.json
+
+# Local (never commit)
+.devcontainer/local/
+*.local.env
