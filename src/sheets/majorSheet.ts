@@ -4,7 +4,7 @@ import {
   TRACK_COMMON,
   type MajorField,
 } from '../lib/names.js';
-import type { MajorCourse } from '../lib/csv.js';
+import type { MajorCourse } from '../lib/course.js';
 import { type MajorInput } from '../lib/majors.js';
 import {
   block,

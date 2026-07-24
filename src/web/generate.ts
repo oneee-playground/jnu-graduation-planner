@@ -3,9 +3,9 @@
  * website/generate.bundle.js and imported by website/app.js as an ES module.
  *
  * Reuses the exact same pure {@link buildWorkbook} used by the CLI, so the
- * client-generated file is identical to a server/CLI build. Catalog + 교양 data
- * are fetched as JSON (prepared by scripts/prepare-web-data.ts + the per-major
- * catalogs shipped under website/data/majors/).
+ * client-generated file is identical to a server/CLI build. All data — 교양,
+ * 마이크로디그리, and the per-major catalogs — is fetched as JSON at runtime
+ * (prepared by scripts/prepare-web-data.ts under website/data/).
  */
 
 import { buildWorkbook } from '../lib/build.js';
@@ -15,7 +15,11 @@ import {
   type CatalogIndexEntry,
   type MajorCatalog,
 } from '../lib/catalog.js';
-import type { Course } from '../lib/csv.js';
+import type { Course } from '../lib/course.js';
+import {
+  assertMicroDegreeCatalog,
+  type MicroDegree,
+} from '../lib/microdegree.js';
 import type {
   GenerateConfig,
   MajorRole,
@@ -36,16 +40,35 @@ export interface MajorSelection {
 const DATA_BASE = 'data';
 
 let genEduCache: Course[] | undefined;
+let microDegreeCache: MicroDegree[] | undefined;
 const catalogCache = new Map<string, MajorCatalog>();
 
 /** Fetches + caches the 교양 course list (prepared JSON). */
 export async function loadGenEdu(): Promise<Course[]> {
   if (genEduCache) return genEduCache;
-  const res = await fetch(`${DATA_BASE}/genedu.json`);
+  const res = await fetch(`${DATA_BASE}/${encodeURIComponent('교양.json')}`);
   if (!res.ok)
     throw new Error(`교양 데이터를 불러오지 못했습니다 (${res.status})`);
   genEduCache = (await res.json()) as Course[];
   return genEduCache;
+}
+
+/** Fetches + caches the 마이크로디그리 catalog (prepared JSON). */
+export async function loadMicroDegree(): Promise<MicroDegree[]> {
+  if (microDegreeCache) return microDegreeCache;
+  const res = await fetch(
+    `${DATA_BASE}/${encodeURIComponent('마이크로디그리.json')}`,
+  );
+  if (!res.ok)
+    throw new Error(
+      `마이크로디그리 데이터를 불러오지 못했습니다 (${res.status})`,
+    );
+  const catalog = assertMicroDegreeCatalog(
+    await res.json(),
+    '마이크로디그리.json',
+  );
+  microDegreeCache = catalog.degrees;
+  return microDegreeCache;
 }
 
 /** Fetches the catalog index (list of selectable majors). */
@@ -97,8 +120,11 @@ export async function buildConfig(
 export async function generateAndDownload(
   config: GenerateConfig,
 ): Promise<string> {
-  const genEdu = await loadGenEdu();
-  const wb = await buildWorkbook(config, genEdu);
+  const [genEdu, microDegrees] = await Promise.all([
+    loadGenEdu(),
+    loadMicroDegree(),
+  ]);
+  const wb = await buildWorkbook(config, genEdu, microDegrees);
   const buffer = await wb.xlsx.writeBuffer();
   const blob = new Blob([buffer], {
     type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',

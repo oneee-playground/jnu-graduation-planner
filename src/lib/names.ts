@@ -7,7 +7,6 @@
 /** Sheet titles (Korean, as shown to the end user). */
 export const SHEET = {
   dashboard: '대시보드',
-  manual: '매뉴얼',
   genEdu: '교양',
   microDegree: '마이크로디그리',
   /** Visible sheet holding lookup tables and the university-wide GPA minimum. */

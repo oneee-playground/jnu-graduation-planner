@@ -1,4 +1,4 @@
-import type { Course } from '../lib/csv.js';
+import type { Course } from '../lib/course.js';
 import {
   defineSheet,
   table,

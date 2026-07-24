@@ -7,7 +7,7 @@
  * (with a chosen role + optional threshold overrides) into {@link MajorInput}s.
  */
 
-import type { MajorCourse } from './csv.js';
+import type { MajorCourse } from './course.js';
 import type { MajorInput, MajorRole, MajorThresholds } from './majors.js';
 
 /** Course row as stored in catalog JSON (mirrors {@link MajorCourse}). */

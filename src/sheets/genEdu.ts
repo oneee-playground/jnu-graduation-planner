@@ -1,4 +1,4 @@
-import type { Course } from '../lib/csv.js';
+import type { Course } from '../lib/course.js';
 import { NAME, SHEET } from '../lib/names.js';
 import { catalogSheet } from './courseSheet.js';
 import type { SheetSpec } from '../lib/template/index.js';

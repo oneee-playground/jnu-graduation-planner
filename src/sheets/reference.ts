@@ -74,14 +74,14 @@ export function referenceSheet(config: GenerateConfig): SheetSpec {
     columns: [
       { index: 1, width: 22 },
       { index: 2, width: 12 },
-      { index: 4, width: 38 },
+      { index: 4, width: 56 },
       { index: 5, width: 12 },
     ],
     regions: [
       title('참조 자료', { height: 24 }),
 
       // --- 등급 → 평점 lookup table (cols A:B) ---
-      title('등급 → 평점 (학칙 제49조)', { at: 3, style: 'label' }),
+      title('등급 → 평점 (전남대학교 학칙 제49조)', { at: 3, style: 'label' }),
       table<GradeRow>({
         at: 4,
         startCol: 1,
@@ -109,7 +109,8 @@ export function referenceSheet(config: GenerateConfig): SheetSpec {
           [{ value: '졸업 사정 기준', style: 'label' }],
           [
             {
-              value: '졸업 최소 평점 (졸업사정지침·학칙 제59조)',
+              value:
+                '졸업 최소 평점 (전남대학교 졸업(수료)사정 지침 · 전남대학교 학칙 제59조)',
               style: 'header',
             },
             {
@@ -121,7 +122,11 @@ export function referenceSheet(config: GenerateConfig): SheetSpec {
             },
           ],
           [
-            { value: '교양최대인정학점 (편성 제10조)', style: 'header' },
+            {
+              value:
+                '교양최대인정학점 (전남대학교 교육과정 편성 및 운영지침 제10조)',
+              style: 'header',
+            },
             {
               name: NAME.reqGenMax,
               value: genMax,
@@ -140,7 +145,11 @@ export function referenceSheet(config: GenerateConfig): SheetSpec {
         [
           [{ value: '중복인정 상한 (학점)', style: 'label' }],
           [
-            { value: '복수·연계전공 (규정 제10조)', style: 'header' },
+            {
+              value:
+                '복수·연계전공 (전남대학교 복수전공 이수에 관한 규정 제10조)',
+              style: 'header',
+            },
             {
               name: NAME.reqDupCapDouble,
               value: dupCapForRole('복수전공'),
@@ -150,7 +159,11 @@ export function referenceSheet(config: GenerateConfig): SheetSpec {
             },
           ],
           [
-            { value: '부전공 (지침 제9조②)', style: 'header' },
+            {
+              value:
+                '부전공 (전남대학교 부·복수·연계전공 이수에 관한 지침 제9조②)',
+              style: 'header',
+            },
             {
               name: NAME.reqDupCapMinor,
               value: dupCapForRole('부전공'),

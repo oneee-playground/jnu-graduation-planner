@@ -7,13 +7,10 @@ node_modules/
 dist/
 *.tsbuildinfo
 
-# Build output
-*.xlsx
-!references/**/*.xlsx
-
-# Generated website artifacts (produced by `npm run web:build` in CI)
+# Generated website artifacts (produced by `npm run web:build` in CI).
+# The canonical source lives in data/; website/data/ is copied from it.
 website/generate.bundle.js
-website/data/genedu.json
+website/data/
 
 # Local (never commit)
 .devcontainer/local/

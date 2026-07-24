@@ -5,11 +5,14 @@
  *
  * Legal basis: 학칙 제50조 (복수전공 등), 교육과정편성 제14·16~20조. A student is either
  * a 단일전공 이수자 (must earn 전공심화 ≥21) or pursues one or more of 복수전공 / 연계전공
- * / 부전공. 연계전공 is a 복수전공-class second major (학칙 제50조①), so it is unlimited
- * like 복수전공; 부전공 is limited to at most one.
+ * / 부전공. 연계전공 is a 복수전공-class second major (학칙 제50조①). 한 학생이 이수할 수
+ * 있는 부전공(및 복수·연계전공) 개수를 제한하는 조항은 학칙 제50조·부·복수·연계전공 이수
+ * 지침 어디에도 없다 (지침 제3조①: "부전공 허용인원에 제한은 없으나, 대학 및 학과의 특성에
+ * 따라 제한을 둘 수 있다"). 따라서 한 사람이 부전공을 여러 개 이수할 수 있으며, 학과가 자체
+ * 제한을 둘 수는 있다.
  */
 
-import type { MajorCourse } from './csv.js';
+import type { MajorCourse } from './course.js';
 
 /** 전공 이수 방식 / a major's role in the student's degree plan. */
 export type MajorRole = '주전공' | '복수전공' | '부전공' | '연계전공';

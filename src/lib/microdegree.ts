@@ -29,7 +29,7 @@ export interface MicroDegree {
   courses: MicroDegreeCourse[];
 }
 
-/** The 마이크로디그리 catalog file shape (data/microdegree.json). */
+/** The 마이크로디그리 catalog file shape (data/마이크로디그리.json). */
 export interface MicroDegreeCatalog {
   /** Provenance string for the reference/manual sheets. */
   source: string;

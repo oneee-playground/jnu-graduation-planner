@@ -13,7 +13,7 @@ import {
   type GenerateConfig,
   type MajorInput,
 } from '../lib/majors.js';
-import type { MajorCourse } from '../lib/csv.js';
+import type { MajorCourse } from '../lib/course.js';
 import {
   block,
   countifs,
@@ -1166,10 +1166,10 @@ export function dashboardSheet(config: GenerateConfig): SheetSpec {
 
       // --- 마이크로디그리 이수 현황 (below 다중전공, col A) ---
       // 마이크로디그리는 졸업요건이 아니라 참고용 (운영 지침 제9조).
-      block(
-        [[{ value: '마이크로디그리 이수 현황 (참고용)', style: 'label' }]],
-        { at: microLabelRow, startCol: SECONDARY_COL },
-      ),
+      block([[{ value: '마이크로디그리 이수 현황', style: 'label' }]], {
+        at: microLabelRow,
+        startCol: SECONDARY_COL,
+      }),
       block([microHeaderRow, ...microRows], {
         at: microHeaderRowNum,
         startCol: SECONDARY_COL,
