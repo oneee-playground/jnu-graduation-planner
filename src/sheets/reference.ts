@@ -1,4 +1,5 @@
 import { NAME, SHEET } from '../lib/names.js';
+import type { GenEduRules } from '../lib/genEdu.js';
 import {
   dupCapForRole,
   primaryMajor,
@@ -66,9 +67,16 @@ export const NUMERIC_GRADES = GRADE_OPTIONS.filter(
   (g) => g !== 'P' && g !== 'NP',
 );
 
-export function referenceSheet(config: GenerateConfig): SheetSpec {
-  // 최소 평점·교양최대인정학점은 주전공 학과 기준을 따른다 (사용자 지정 아님).
-  const { minGpa, genMax } = primaryMajor(config).thresholds;
+export function referenceSheet(
+  config: GenerateConfig,
+  rules: GenEduRules,
+): SheetSpec {
+  // 최소 평점은 주전공 학과 기준을 따른다 (사용자 지정 아님).
+  const { minGpa, genMax: catalogGenMax } = primaryMajor(config).thresholds;
+  // 교양 인정학점 하한·상한은 입학연도 버전 규칙이 기본. 주전공 학과의 카탈로그
+  // genMax 가 버전 기본과 다르면(간호·공학인증 등 학과 예외) 그 값을 override 로 쓴다.
+  const genMin = rules.genMin;
+  const genMax = catalogGenMax !== rules.genMax ? catalogGenMax : rules.genMax;
   return defineSheet({
     name: SHEET.reference,
     columns: [
@@ -124,6 +132,20 @@ export function referenceSheet(config: GenerateConfig): SheetSpec {
           [
             {
               value:
+                '교양 인정학점 하한 (전남대학교 교육과정 편성 및 운영지침 제10조)',
+              style: 'header',
+            },
+            {
+              name: NAME.reqGenMin,
+              value: genMin,
+              style: 'computedCenter',
+              numFmt: '0',
+              locked: true,
+            },
+          ],
+          [
+            {
+              value:
                 '교양최대인정학점 (전남대학교 교육과정 편성 및 운영지침 제10조)',
               style: 'header',
             },
@@ -173,12 +195,13 @@ export function referenceSheet(config: GenerateConfig): SheetSpec {
             },
           ],
         ],
-        { at: 7, startCol: 4, merges: [{ row: 0, col: 0, colSpan: 2 }] },
+        { at: 8, startCol: 4, merges: [{ row: 0, col: 0, colSpan: 2 }] },
       ),
     ],
     definedNames: [
       { name: NAME.gradeTable, target: 'gradeTable', targetKind: 'range' },
       { name: NAME.reqMinGpa, target: NAME.reqMinGpa },
+      { name: NAME.reqGenMin, target: NAME.reqGenMin },
       { name: NAME.reqGenMax, target: NAME.reqGenMax },
       { name: NAME.reqDupCapDouble, target: NAME.reqDupCapDouble },
       { name: NAME.reqDupCapMinor, target: NAME.reqDupCapMinor },

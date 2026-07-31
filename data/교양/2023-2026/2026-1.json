@@ -1,0 +1,2282 @@
+[
+  {
+    "category": "역량교양",
+    "subCategory": "창의",
+    "code": "CLT0080",
+    "title": "생활의화학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "창의",
+    "code": "CLT0086",
+    "title": "환경과학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "창의",
+    "code": "CLT0696",
+    "title": "지구의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "창의",
+    "code": "CLT0747",
+    "title": "과학사의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "창의",
+    "code": "CLT0785",
+    "title": "미디어문화와디자인",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "창의",
+    "code": "CLT0819",
+    "title": "포스트휴먼과상상력",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "창의",
+    "code": "CLT0820",
+    "title": "36.5도의물리학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "창의",
+    "code": "CLT0822",
+    "title": "세상을바꾸는커뮤니케이션",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "창의",
+    "code": "CLT0824",
+    "title": "빅데이터의과학적탐구",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "창의",
+    "code": "CLT0825",
+    "title": "삶속의생명과학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "창의",
+    "code": "CLT0899",
+    "title": "대학과학문",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT0041",
+    "title": "철학과삶",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT0826",
+    "title": "서양문학기행",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT0827",
+    "title": "프랑스감성과문학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT0828",
+    "title": "예술감성과미학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT0829",
+    "title": "한국인의삶과문학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT0830",
+    "title": "미디어로보는일본문학과감성",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT0831",
+    "title": "문화야놀자:기억과놀이",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT0832",
+    "title": "이큐독문학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT0902",
+    "title": "사랑과폭력의인문학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT0934",
+    "title": "중국문학의숲에서거닐다",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT0996",
+    "title": "유럽으로떠나는문화여행",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "감성",
+    "code": "CLT1024",
+    "title": "디지털시대로컬문화큐레이팅",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0032",
+    "title": "한국사",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0594",
+    "title": "현대사회의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0796",
+    "title": "여행의세계",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0833",
+    "title": "분쟁의세계지리",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0834",
+    "title": "공동체와현대행정",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0835",
+    "title": "동양의역사와문화",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0836",
+    "title": "서양의역사와문화",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0837",
+    "title": "공존과협력의심리",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0839",
+    "title": "인류진화와고대문명",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0840",
+    "title": "민주주의와공동체",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0841",
+    "title": "결혼과가족의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0843",
+    "title": "공동체와담론",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0844",
+    "title": "윤리적사유와공동체",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0905",
+    "title": "세계속의프랑스문화공동체",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0937",
+    "title": "마을인문학:자유롭고싶지만외롭긴싫어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "역량교양",
+    "subCategory": "공동체",
+    "code": "CLT0958",
+    "title": "세계문화탐험",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0082",
+    "title": "수학1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0083",
+    "title": "수학2",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0084",
+    "title": "일반화학1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0085",
+    "title": "일반화학2",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0089",
+    "title": "화학실험1",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0090",
+    "title": "화학실험2",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0091",
+    "title": "생물실험1",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0092",
+    "title": "생물실험2",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0093",
+    "title": "수학1연습",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0094",
+    "title": "수학2연습",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0095",
+    "title": "일반물리1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0096",
+    "title": "일반물리2",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0097",
+    "title": "일반생물1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0098",
+    "title": "일반생물2",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0099",
+    "title": "지구과학1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0100",
+    "title": "지구과학2",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0510",
+    "title": "일반물리실험1",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0511",
+    "title": "일반물리실험2",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0777",
+    "title": "대학수학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0845",
+    "title": "에센스물리학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초과학",
+    "code": "CLT0933",
+    "title": "기초통계학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0002",
+    "title": "한문",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0008",
+    "title": "기초중국어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0009",
+    "title": "생활중국어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0010",
+    "title": "기초일본어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0011",
+    "title": "생활일본어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0591",
+    "title": "논리학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0592",
+    "title": "기초영어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0600",
+    "title": "기초스페인어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0601",
+    "title": "생활스페인어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0602",
+    "title": "기초러시아어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0603",
+    "title": "생활러시아어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0666",
+    "title": "생활영어1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0667",
+    "title": "생활영어2",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0725",
+    "title": "언어의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0727",
+    "title": "취업영어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0798",
+    "title": "한자와중국문화",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0846",
+    "title": "영어글쓰기",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0847",
+    "title": "영어읽기와토론",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0848",
+    "title": "프랑스어입문",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0849",
+    "title": "실생활프랑스어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0959",
+    "title": "영화와드라마로배우는영어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0978",
+    "title": "기초수어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT0999",
+    "title": "독일어로떠나는문화산책1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초도구",
+    "code": "CLT1001",
+    "title": "독일어로떠나는문화산책2",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0670",
+    "title": "생활응용컴퓨터",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0672",
+    "title": "C프로그래밍",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0680",
+    "title": "네트워크와모바일기술",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0868",
+    "title": "공학을위한컴퓨터과학적사고",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0869",
+    "title": "자연과학을위한컴퓨터과학적사고",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0870",
+    "title": "인문사회과학을위한컴퓨터과학적사고",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0944",
+    "title": "에듀테크의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0946",
+    "title": "디지털인문학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0947",
+    "title": "문화예술을위한컴퓨터과학적사고",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0948",
+    "title": "농생명과학을위한컴퓨터과학적사고",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0949",
+    "title": "의생명과학을위한컴퓨터과학적사고",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0950",
+    "title": "디지털혁신의컴퓨터과학적사고",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0960",
+    "title": "지능정보기술과미래사회",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0961",
+    "title": "인공지능기초",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0983",
+    "title": "데이터기반비즈니스컴퓨팅",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0984",
+    "title": "빅데이터활용비즈니스의사결정",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0985",
+    "title": "생활과학을위한컴퓨터과학적사고",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT0987",
+    "title": "미래ICT융합기술의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0017",
+    "title": "중국의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0031",
+    "title": "인간과가치",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0039",
+    "title": "역사의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0046",
+    "title": "심리학개론",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0050",
+    "title": "법학개론",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0053",
+    "title": "여성과법률",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0054",
+    "title": "한국경제의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0551",
+    "title": "문학과여행",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0565",
+    "title": "교육의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0566",
+    "title": "호남의역사와문화",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0567",
+    "title": "현대사회와정신건강",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0573",
+    "title": "5.18항쟁과민주.인권",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0609",
+    "title": "현대인권과법",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0611",
+    "title": "생활법률",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0613",
+    "title": "미국사회와대중문화",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0674",
+    "title": "행복심리학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0675",
+    "title": "독일의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0726",
+    "title": "기록문화의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0746",
+    "title": "현대과학론",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0750",
+    "title": "미디어와사회",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0753",
+    "title": "문화예술과저작권",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0754",
+    "title": "김대중의사상과리더십",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0763",
+    "title": "경제학개론",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0768",
+    "title": "경영의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0787",
+    "title": "삶과지적대화",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0802",
+    "title": "인구변동과다문화교육",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0806",
+    "title": "호남감성문화산책",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0807",
+    "title": "시로읽는인문교양",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0851",
+    "title": "문학과인간",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0853",
+    "title": "4차산업혁명과인문학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0854",
+    "title": "문화와관광",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0855",
+    "title": "역사속의도시들",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0856",
+    "title": "여행과역사",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0858",
+    "title": "과학기술과사회",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0860",
+    "title": "통일과북한사회",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0861",
+    "title": "세계와글로벌코리안",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0862",
+    "title": "기후변화와생태계서비스",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0863",
+    "title": "생명윤리",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0864",
+    "title": "동양사상과현대의만남",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0865",
+    "title": "가족인문학–나는누구와함께살것인가",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0866",
+    "title": "정책의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0901",
+    "title": "옷장속의세계시민",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0903",
+    "title": "신체와성:그역사적탐색",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0924",
+    "title": "지속가능한소비",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0938",
+    "title": "범죄와자기방어",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0951",
+    "title": "그리스신화와철학",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0952",
+    "title": "518민주화운동과세계의항쟁",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0953",
+    "title": "영화로보는한국사회와사회운동",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0954",
+    "title": "여수바다여행놀이",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0981",
+    "title": "연애의첫단추",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0986",
+    "title": "언어로보는세상",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0988",
+    "title": "실패해도괜찮아:놀이로배우는인생",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0989",
+    "title": "자연과함께하기",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0991",
+    "title": "우언과삶의지혜",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0992",
+    "title": "지속가능여수바다ESG",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0995",
+    "title": "문학과사랑",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT0997",
+    "title": "문학으로사유하는공존과소통",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT1002",
+    "title": "폭력과섹슈얼리티:현대사회의성과사랑",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT1003",
+    "title": "한국정치를읽는법",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT1004",
+    "title": "당신이몰랐던국제사회이야기",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT1005",
+    "title": "정치학으로의첫걸음",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT1007",
+    "title": "공학에서의인간중심디자인",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT1014",
+    "title": "식탁위의세계",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT1015",
+    "title": "오월의봄:518로떠나는시간여행",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT1017",
+    "title": "우리고전의재미와상상력",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT1019",
+    "title": "상호문화교육과세계시민의식",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT1023",
+    "title": "한국의섬과바다",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0073",
+    "title": "현대과학과인간",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0110",
+    "title": "식품과영양",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0525",
+    "title": "동물과인간생활",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0527",
+    "title": "천체의신비",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0552",
+    "title": "수학의세계",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0584",
+    "title": "공학소양특강",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0612",
+    "title": "의상속의과학세계",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0665",
+    "title": "해양과학의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0775",
+    "title": "전기전자컴퓨터공학기초",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0936",
+    "title": "빅데이터시대의금융투자",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0955",
+    "title": "반려식물키우기",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0962",
+    "title": "숨어있는한반도의지질",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0963",
+    "title": "정보와통계",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0980",
+    "title": "블록체인의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT0982",
+    "title": "반려동물교감체험",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "자연과기술",
+    "code": "CLT1013",
+    "title": "생활속식물탐험",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0020",
+    "title": "음악의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0021",
+    "title": "미술의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0028",
+    "title": "영화로보는세상",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0029",
+    "title": "한국음악의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0111",
+    "title": "현대사회와스포츠",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0112",
+    "title": "성의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0113",
+    "title": "운동과건강관리",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0114",
+    "title": "생활건강",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0562",
+    "title": "여성과건강",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0571",
+    "title": "영상으로보는중국",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0572",
+    "title": "패션과문화",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0587",
+    "title": "국외언어연수2",
+    "credits": 5,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0620",
+    "title": "장애의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0676",
+    "title": "멀티미디어콘텐츠제작",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0686",
+    "title": "프랑스문화와예술",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0687",
+    "title": "독일문화와예술",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0698",
+    "title": "건축의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0734",
+    "title": "한국전통음악의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0738",
+    "title": "한국사입문",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0740",
+    "title": "한국민속의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0761",
+    "title": "자기계발을위한코칭리더십",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0783",
+    "title": "국외언어연수4",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0792",
+    "title": "문화와스토리텔링",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0793",
+    "title": "도시와문화예술",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0794",
+    "title": "미디어와영상콘텐츠",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0812",
+    "title": "대학과사회봉사1",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0813",
+    "title": "대학과사회봉사2",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0814",
+    "title": "대학과사회봉사3",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0815",
+    "title": "국외봉사1",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0816",
+    "title": "국외봉사2",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0817",
+    "title": "국외봉사3",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0875",
+    "title": "국외언어연수1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0876",
+    "title": "글로벌해외연수3",
+    "credits": 9,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0877",
+    "title": "국외언어연수5",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0878",
+    "title": "영화와영상콘텐츠",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0880",
+    "title": "일본영화감상과이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0881",
+    "title": "댄스스포츠기초",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0882",
+    "title": "배드민턴기초",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0883",
+    "title": "축구기초",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0884",
+    "title": "태권도기초",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0885",
+    "title": "테니스기초",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0886",
+    "title": "피트니스",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0900",
+    "title": "자기주도미래설계",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0926",
+    "title": "클래식과함께하는문화관광",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0927",
+    "title": "크리에이터:디자인텔링",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0928",
+    "title": "합창의발견",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0929",
+    "title": "스포츠와생활안전",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0930",
+    "title": "뮤지컬의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0932",
+    "title": "시간과자기계발",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0935",
+    "title": "글로벌음식문화",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0943",
+    "title": "스트레스관리와건강생활",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0964",
+    "title": "한국미술의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0965",
+    "title": "생활한국어1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0966",
+    "title": "생활한국어2",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0967",
+    "title": "생활한국어3",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0968",
+    "title": "생활한국어4",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0969",
+    "title": "대학한국어1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0970",
+    "title": "대학한국어2",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0979",
+    "title": "다큐로만나는타인의삶",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0993",
+    "title": "한국어와한국문화",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT0994",
+    "title": "오픈소스하드웨어프로그래밍",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT1009",
+    "title": "국외언어연수6",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT1010",
+    "title": "국외언어연수7",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT1011",
+    "title": "국외언어연수8",
+    "credits": 1,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT1012",
+    "title": "국외언어연수9",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT1016",
+    "title": "한류와K컬처",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT1018",
+    "title": "요트로항해하는여수바다",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT1020",
+    "title": "문화예술경영탐색:현장을만나다",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT1025",
+    "title": "인생은연극",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLTK009",
+    "title": "한국어초급1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLTK010",
+    "title": "한국어초급2",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLTK011",
+    "title": "한국어초급3",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLTK012",
+    "title": "한국어초급4",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLTK013",
+    "title": "한국어중급1",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLTK014",
+    "title": "한국어중급2",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLTK015",
+    "title": "한국어중급3",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLTK016",
+    "title": "한국어중급4",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "표현과소통",
+    "code": "CLT0887",
+    "title": "말하기의전략",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "표현과소통",
+    "code": "CLT0888",
+    "title": "성찰과소통을위한글쓰기",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "표현과소통",
+    "code": "CLT0889",
+    "title": "토론과민주지성",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "표현과소통",
+    "code": "CLT0890",
+    "title": "효과적인말하기",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "표현과소통",
+    "code": "CLT0893",
+    "title": "인문사회글쓰기",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "표현과소통",
+    "code": "CLT0894",
+    "title": "과학기술글쓰기",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "표현과소통",
+    "code": "CLT0945",
+    "title": "삶을바꾸는고전읽기",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0582",
+    "title": "과학기술과지식재산",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0706",
+    "title": "기술과창업",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0771",
+    "title": "진로설계와자기이해",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0896",
+    "title": "프랑스어권취업과창업",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0898",
+    "title": "수산경영과창업",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0911",
+    "title": "창업가정신",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0917",
+    "title": "학생자율연구",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0918",
+    "title": "창의적문제해결입문",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0956",
+    "title": "바이오의료창업",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0957",
+    "title": "영상매체로이해하는창업",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0977",
+    "title": "재미있는창업실무",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT0998",
+    "title": "아시아공동체와창업",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT1006",
+    "title": "공학전공탐색",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT1008",
+    "title": "해양수산전공탐색",
+    "credits": 2,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT1021",
+    "title": "알기쉬운SW창업",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "진로와창업",
+    "code": "CLT1022",
+    "title": "한학기완성나만의스타트업",
+    "credits": 2,
+    "reqCategory": "교선"
+  }
+]

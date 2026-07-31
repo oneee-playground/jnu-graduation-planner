@@ -17,6 +17,14 @@ import {
 } from '../lib/catalog.js';
 import type { Course } from '../lib/course.js';
 import {
+  selectVersion,
+  unionByCode,
+  type GenEduIndexEntry,
+  type GenEduRules,
+  type GenEduSemester,
+  type GenEduVersionData,
+} from '../lib/genEdu.js';
+import {
   assertMicroDegreeCatalog,
   type MicroDegree,
 } from '../lib/microdegree.js';
@@ -39,18 +47,61 @@ export interface MajorSelection {
 /** Base path for fetched data, relative to the page. */
 const DATA_BASE = 'data';
 
-let genEduCache: Course[] | undefined;
+const genEduCache = new Map<number, GenEduVersionData>();
 let microDegreeCache: MicroDegree[] | undefined;
 const catalogCache = new Map<string, MajorCatalog>();
 
-/** Fetches + caches the 교양 course list (prepared JSON). */
-export async function loadGenEdu(): Promise<Course[]> {
-  if (genEduCache) return genEduCache;
-  const res = await fetch(`${DATA_BASE}/${encodeURIComponent('교양.json')}`);
+/** Base path for the versioned 교양 data (index + per-version dirs). */
+const GEN_EDU_BASE = `${DATA_BASE}/${encodeURIComponent('교양')}`;
+
+async function fetchJson<T>(url: string, what: string): Promise<T> {
+  const res = await fetch(url);
   if (!res.ok)
-    throw new Error(`교양 데이터를 불러오지 못했습니다 (${res.status})`);
-  genEduCache = (await res.json()) as Course[];
-  return genEduCache;
+    throw new Error(`${what}을(를) 불러오지 못했습니다 (${res.status})`);
+  return (await res.json()) as T;
+}
+
+/**
+ * Fetches + caches the 교양 version whose entry-year range contains `entryYear`
+ * (falling back to the latest version when none matches). Returns the rules,
+ * every semester's offering list, and a single unified code→course lookup.
+ */
+export async function loadGenEdu(
+  entryYear: number,
+): Promise<GenEduVersionData> {
+  const cached = genEduCache.get(entryYear);
+  if (cached) return cached;
+
+  const index = await fetchJson<GenEduIndexEntry[]>(
+    `${GEN_EDU_BASE}/index.json`,
+    '교양 버전 목록',
+  );
+  const { entry, fallback } = selectVersion(index, entryYear);
+  const dir = `${GEN_EDU_BASE}/${encodeURIComponent(entry.dir)}`;
+  const rules = await fetchJson<GenEduRules>(
+    `${dir}/${encodeURIComponent(entry.rules)}`,
+    '교양 요건',
+  );
+  const semesters: GenEduSemester[] = await Promise.all(
+    entry.semesters.map(async (s) => ({
+      label: s.label,
+      courses: await fetchJson<Course[]>(
+        `${dir}/${encodeURIComponent(s.file)}`,
+        `교양 편성목록(${s.label})`,
+      ),
+    })),
+  );
+  const data: GenEduVersionData = {
+    version: entry.version,
+    entryYearFrom: entry.entryYearFrom,
+    entryYearTo: entry.entryYearTo,
+    rules,
+    semesters,
+    lookup: unionByCode(semesters),
+    fallback,
+  };
+  genEduCache.set(entryYear, data);
+  return data;
 }
 
 /** Fetches + caches the 마이크로디그리 catalog (prepared JSON). */
@@ -121,7 +172,7 @@ export async function generateAndDownload(
   config: GenerateConfig,
 ): Promise<string> {
   const [genEdu, microDegrees] = await Promise.all([
-    loadGenEdu(),
+    loadGenEdu(config.student.entryYear),
     loadMicroDegree(),
   ]);
   const wb = await buildWorkbook(config, genEdu, microDegrees);

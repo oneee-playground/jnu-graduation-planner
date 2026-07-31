@@ -6,7 +6,11 @@ import {
   type ColumnWidth,
   type Region,
   type SheetSpec,
+  type TableRegion,
 } from '../lib/template/index.js';
+
+/** Number of columns in the visible catalog table (영역..이수구분). */
+export const CATALOG_COLS = 6;
 
 /**
  * A code-first lookup row shared by every catalog: 코드 | 이수구분 | 교과목명 |
@@ -119,6 +123,75 @@ export function lookupRegion(
 }
 
 /**
+ * Builds one visible catalog table region (영역|세부영역|코드|교과목명|학점|이수구분)
+ * at an explicit start row/column. Reused for both the single 주전공/교양 catalog
+ * layout and the 교양 sheet's multiple per-semester tables laid out horizontally.
+ * Spans {@link CATALOG_COLS} columns starting at `startCol`.
+ */
+export function catalogTableRegion(
+  courses: Course[],
+  at: number,
+  startCol: number,
+): TableRegion<Course> {
+  return table<Course>({
+    at,
+    startCol,
+    columns: [
+      {
+        header: '영역',
+        width: 14,
+        style: 'computed',
+        value: (c) => c.category || undefined,
+      },
+      {
+        header: '세부영역',
+        width: 14,
+        style: 'computed',
+        value: (c) => c.subCategory || undefined,
+      },
+      {
+        header: '코드',
+        width: 12,
+        style: 'computed',
+        value: (c) => c.code || undefined,
+      },
+      {
+        header: '교과목명',
+        width: 30,
+        style: 'computed',
+        value: (c) => c.title || undefined,
+      },
+      {
+        header: '학점',
+        width: 8,
+        style: 'computed',
+        numFmt: '0',
+        value: (c) => (c.credits ? c.credits : undefined),
+      },
+      {
+        header: '이수구분',
+        width: 12,
+        style: 'computed',
+        value: (c) => c.reqCategory || undefined,
+      },
+    ],
+    rows: courses,
+  });
+}
+
+/** Maps 교양 Course rows to the shared code-first lookup layout. */
+export function toLookupRows(courses: Course[]): LookupRow[] {
+  return courses.map((c) => ({
+    code: c.code,
+    reqCategory: c.reqCategory,
+    title: c.title,
+    credits: c.credits,
+    year: c.year ?? '',
+    subArea: c.subCategory,
+  }));
+}
+
+/**
  * Builds a read-only 교양 curriculum catalog sheet. Visible columns:
  *   영역 | 세부영역 | 코드 | 교과목명 | 학점 | 이수구분
  *
@@ -135,61 +208,12 @@ export function catalogSheet(
   /** When true the sheet is protected (all cells read-only; baked catalog data). */
   locked = false,
 ): SheetSpec {
-  const lookupRows: LookupRow[] = courses.map((c) => ({
-    code: c.code,
-    reqCategory: c.reqCategory,
-    title: c.title,
-    credits: c.credits,
-    year: c.year ?? '',
-    subArea: c.subCategory,
-  }));
+  const lookupRows: LookupRow[] = toLookupRows(courses);
 
   const regions: Region[] = [
     title(titleText, { height: 22 }),
-    table<Course>({
-      leading: 1, // title is row 1; header lands on row 3
-      startCol: 1,
-      columns: [
-        {
-          header: '영역',
-          width: 14,
-          style: 'computed',
-          value: (c) => c.category || undefined,
-        },
-        {
-          header: '세부영역',
-          width: 14,
-          style: 'computed',
-          value: (c) => c.subCategory || undefined,
-        },
-        {
-          header: '코드',
-          width: 12,
-          style: 'computed',
-          value: (c) => c.code || undefined,
-        },
-        {
-          header: '교과목명',
-          width: 30,
-          style: 'computed',
-          value: (c) => c.title || undefined,
-        },
-        {
-          header: '학점',
-          width: 8,
-          style: 'computed',
-          numFmt: '0',
-          value: (c) => (c.credits ? c.credits : undefined),
-        },
-        {
-          header: '이수구분',
-          width: 12,
-          style: 'computed',
-          value: (c) => c.reqCategory || undefined,
-        },
-      ],
-      rows: courses,
-    }),
+    // title is row 1; header lands on row 3 (at: 3).
+    catalogTableRegion(courses, 3, 1),
   ];
 
   if (lookupName && lookupRows.length > 0) {

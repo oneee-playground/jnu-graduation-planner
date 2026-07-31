@@ -107,6 +107,8 @@ export interface TitleRegion {
   leading?: number;
   /** Pin the title to an explicit 1-based row instead of the cursor. */
   at?: number;
+  /** 1-based starting column (default 1). Lets titles sit above off-col tables. */
+  startCol?: number;
   /** Merge the title cell across this many columns (default 1, no merge). */
   span?: number;
 }

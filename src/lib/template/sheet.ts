@@ -161,7 +161,7 @@ function layoutTitle(
   const row = (region.at ?? cursor) + (region.leading ?? 0);
   place(
     row,
-    1,
+    region.startCol ?? 1,
     {
       value: region.text,
       style: region.style ?? 'title',

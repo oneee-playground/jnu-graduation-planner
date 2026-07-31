@@ -7,7 +7,7 @@
  */
 
 import ExcelJS from 'exceljs';
-import type { Course } from './course.js';
+import type { GenEduVersionData } from './genEdu.js';
 import { SHEET } from './names.js';
 import { validateConfig, type GenerateConfig } from './majors.js';
 import type { MicroDegree } from './microdegree.js';
@@ -18,10 +18,10 @@ import { majorSheet } from '../sheets/majorSheet.js';
 import { microDegreeSheet } from '../sheets/microDegree.js';
 import { dashboardSheet } from '../sheets/dashboard.js';
 
-/** Builds the planner workbook from a config + 교양 catalog + 마이크로디그리 catalog. */
+/** Builds the planner workbook from a config + 교양 버전 데이터 + 마이크로디그리 catalog. */
 export async function buildWorkbook(
   config: GenerateConfig,
-  genEduCourses: Course[],
+  genEdu: GenEduVersionData,
   microDegrees: MicroDegree[],
 ): Promise<ExcelJS.Workbook> {
   validateConfig(config);
@@ -34,11 +34,11 @@ export async function buildWorkbook(
   const majorSheets = config.majors.map((m) => majorSheet(m));
 
   await renderWorkbook(wb, [
-    dashboardSheet(config),
+    dashboardSheet(config, genEdu.rules),
     ...majorSheets,
-    genEduSheet(genEduCourses),
+    genEduSheet(genEdu),
     microDegreeSheet(microDegrees),
-    referenceSheet(config),
+    referenceSheet(config, genEdu.rules),
   ]);
 
   orderSheets(wb, [

@@ -35,6 +35,12 @@ export const NAME = {
    */
   reqGenMax: 'ReqGenMax',
   /**
+   * Single cell: 교양 인정학점 하한 (졸업요건). 교양 이수학점은 입학연도 교육과정
+   * 버전의 하한 이상이어야 한다 — 교육과정 편성 및 운영 지침 제10조①. 학과별 예외가
+   * 있으면 주전공 카탈로그 값으로 override 된다.
+   */
+  reqGenMin: 'ReqGenMin',
+  /**
    * Single cell: minimum cumulative GPA required to graduate. University-wide
    * (전 교과목 성적평균평점 1.75 이상 — 졸업(수료)사정 지침 졸업대상자 공통요건 / 학칙
    * 제59조), so it lives on the 참조 sheet, not per-major.

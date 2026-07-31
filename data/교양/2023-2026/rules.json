@@ -1,0 +1,76 @@
+{
+  "genMin": 30,
+  "genMax": 45,
+  "areaReqs": [
+    {
+      "key": "creativity",
+      "label": "역량-창의",
+      "subAreas": ["창의"],
+      "required": 3
+    },
+    {
+      "key": "sensibility",
+      "label": "역량-감성",
+      "subAreas": ["감성"],
+      "required": 3
+    },
+    {
+      "key": "community",
+      "label": "역량-공동체",
+      "subAreas": ["공동체"],
+      "required": 3
+    },
+    {
+      "key": "basicSw",
+      "label": "기초SW",
+      "subAreas": ["기초SW"],
+      "required": 3
+    },
+    {
+      "key": "expression",
+      "label": "표현과소통",
+      "subAreas": ["표현과소통"],
+      "required": 3
+    },
+    {
+      "key": "career",
+      "label": "진로와창업",
+      "subAreas": ["진로와창업"],
+      "required": 2
+    },
+    {
+      "key": "humanities",
+      "label": "인문학교양",
+      "subAreas": ["창의", "감성", "공동체", "인간과사회", "표현과소통"],
+      "required": 8
+    },
+    {
+      "key": "sciHumanSociety",
+      "label": "이공-인간과사회",
+      "subAreas": ["인간과사회"],
+      "required": 3,
+      "track": "이공계열"
+    },
+    {
+      "key": "sciBasicScience",
+      "label": "이공-기초과학",
+      "subAreas": ["기초과학"],
+      "required": 3,
+      "track": "이공계열"
+    },
+    {
+      "key": "humNature",
+      "label": "인문사회-자연과기술",
+      "subAreas": ["자연과기술"],
+      "required": 3,
+      "track": "인문사회계열"
+    },
+    {
+      "key": "artNature",
+      "label": "예체능-자연과기술",
+      "subAreas": ["자연과기술"],
+      "required": 3,
+      "track": "예체능계열"
+    }
+  ]
+}

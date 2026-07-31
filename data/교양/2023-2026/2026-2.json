@@ -170,7 +170,7 @@
   {
     "category": "역량교양",
     "subCategory": "감성",
-    "code": "CLT0966",
+    "code": "CLT0996",
     "title": "유럽으로떠나는문화여행",
     "credits": 3,
     "reqCategory": "교선"
@@ -460,14 +460,6 @@
     "subCategory": "기초과학",
     "code": "CLT0777",
     "title": "대학수학",
-    "credits": 3,
-    "reqCategory": "교선"
-  },
-  {
-    "category": "기초교양",
-    "subCategory": "기초과학",
-    "code": "CLT0845",
-    "title": "에센스물리학",
     "credits": 3,
     "reqCategory": "교선"
   },
@@ -812,6 +804,22 @@
     "subCategory": "기초SW",
     "code": "CLT0987",
     "title": "미래ICT융합기술의이해",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT1027",
+    "title": "인공지능윤리",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "기초교양",
+    "subCategory": "기초SW",
+    "code": "CLT1028",
+    "title": "AI시대의질문과철학",
     "credits": 3,
     "reqCategory": "교선"
   },
@@ -1348,6 +1356,14 @@
     "subCategory": "인간과사회",
     "code": "CLT1023",
     "title": "한국의섬과바다",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "인간과사회",
+    "code": "CLT1026",
+    "title": "저항음악과재즈그리고인권",
     "credits": 3,
     "reqCategory": "교선"
   },
@@ -2028,6 +2044,14 @@
     "subCategory": "생활과예술",
     "code": "CLT1025",
     "title": "인생은연극",
+    "credits": 3,
+    "reqCategory": "교선"
+  },
+  {
+    "category": "균형교양",
+    "subCategory": "생활과예술",
+    "code": "CLT1029",
+    "title": "내삶을바꾸는재무관리",
     "credits": 3,
     "reqCategory": "교선"
   },

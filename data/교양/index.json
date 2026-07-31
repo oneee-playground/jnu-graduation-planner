@@ -1,0 +1,13 @@
+[
+  {
+    "version": "2023-2026",
+    "entryYearFrom": 2023,
+    "entryYearTo": 2026,
+    "dir": "2023-2026",
+    "rules": "rules.json",
+    "semesters": [
+      { "label": "2026학년도 1학기", "file": "2026-1.json" },
+      { "label": "2026학년도 2학기", "file": "2026-2.json" }
+    ]
+  }
+]

@@ -14,6 +14,7 @@ import {
   type MajorInput,
 } from '../lib/majors.js';
 import type { MajorCourse } from '../lib/course.js';
+import type { AreaReq, GenEduRules } from '../lib/genEdu.js';
 import {
   block,
   countifs,
@@ -84,8 +85,7 @@ export const YEARS = [
   '6학년',
 ] as const;
 
-/** 계열 options; drives the 계열별 교양 의무이수 requirements (교육과정편성 제10조④). */
-export const TRACKS = ['이공계열', '인문사회계열', '예체능계열'] as const;
+export { TRACKS } from '../lib/tracks.js';
 
 /**
  * Pass/fail icons. Colored emoji (inherently green/red) so 충족여부 is readable
@@ -258,83 +258,6 @@ const CATEGORY_COLS: CategoryCol[] = [
     cat: CATEGORY.genSelect,
     field: 'genSelect',
     majorScoped: false,
-  },
-];
-
-/**
- * 교양 영역 의무이수 요건. 근거: 전남대학교 교육과정 편성 및 운영 지침(2024.12.31.)
- * 제10조② (영역별 교양필수), 제10조③ (인문학 교양), 제10조④ (계열별 의무이수).
- * 세부영역명은 제8조① 및 교양교과목 편성목록(입학자별 교양 영역 지정 내역)을 따른다.
- *
- * 요건 원문:
- *  · 제10조②1: 역량교양 창의·감성·공동체 각 영역에서 3학점씩(총 9학점 이상).
- *  · 제10조②2: 기초교양 '기초SW' 영역에서 3학점 이상.
- *  · 제10조②3: 균형교양 '표현과소통' 3학점 이상, '진로와창업' 2학점 이상.
- *  · 제10조③  : 인문학 관련 교양 8학점 이상. 인정 영역 = 역량교양 창의·감성·공동체 +
- *                균형교양 인간과사회·표현과소통.
- *  · 제10조④1: 인문사회·예체능계열 — 균형교양 '자연과기술' 최소 3학점.
- *  · 제10조④2: 이공계열 — 균형교양 '인간과사회' + 기초교양 '기초과학' 각 최소 3학점.
- * (수의예과·의학과·치의학전문대학원 과정은 제10조② 예외이나 이 플래너는 미지원.)
- */
-interface AreaReq {
-  key: string;
-  label: string;
-  subAreas: string[];
-  required: number;
-  track?: (typeof TRACKS)[number];
-}
-
-const AREA_REQS: AreaReq[] = [
-  // 제10조②1 (역량교양 각 3학점).
-  { key: 'creativity', label: '역량-창의', subAreas: ['창의'], required: 3 },
-  { key: 'sensibility', label: '역량-감성', subAreas: ['감성'], required: 3 },
-  { key: 'community', label: '역량-공동체', subAreas: ['공동체'], required: 3 },
-  // 제10조②2 (기초SW 3학점).
-  { key: 'basicSw', label: '기초SW', subAreas: ['기초SW'], required: 3 },
-  // 제10조②3 (표현과소통 3학점, 진로와창업 2학점).
-  {
-    key: 'expression',
-    label: '표현과소통',
-    subAreas: ['표현과소통'],
-    required: 3,
-  },
-  { key: 'career', label: '진로와창업', subAreas: ['진로와창업'], required: 2 },
-  // 제10조③ (인문학 교양 8학점; 여러 영역 합산).
-  {
-    key: 'humanities',
-    label: '인문학교양',
-    subAreas: ['창의', '감성', '공동체', '인간과사회', '표현과소통'],
-    required: 8,
-  },
-  // 제10조④2 (이공계열).
-  {
-    key: 'sciHumanSociety',
-    label: '이공-인간과사회',
-    subAreas: ['인간과사회'],
-    required: 3,
-    track: '이공계열',
-  },
-  {
-    key: 'sciBasicScience',
-    label: '이공-기초과학',
-    subAreas: ['기초과학'],
-    required: 3,
-    track: '이공계열',
-  },
-  // 제10조④1 (인문사회·예체능계열).
-  {
-    key: 'humNature',
-    label: '인문사회-자연과기술',
-    subAreas: ['자연과기술'],
-    required: 3,
-    track: '인문사회계열',
-  },
-  {
-    key: 'artNature',
-    label: '예체능-자연과기술',
-    subAreas: ['자연과기술'],
-    required: 3,
-    track: '예체능계열',
   },
 ];
 
@@ -749,16 +672,19 @@ function dupTargetChain(
   return `IF(${codeCell}="","",IF(${ownerCell}="${primaryKey}",${expr},""))`;
 }
 
-export function dashboardSheet(config: GenerateConfig): SheetSpec {
+export function dashboardSheet(
+  config: GenerateConfig,
+  rules: GenEduRules,
+): SheetSpec {
   const { student, majors } = config;
   const primary = primaryMajor(config);
   const secondaries = secondaryMajors(config);
   const multi = hasSecondaryMajors(config);
 
   // 교양 영역 의무이수: 공통 요건 + 사용자 계열에 해당하는 계열별 요건만 표시한다
-  // (다른 계열용 행은 아예 생성하지 않는다).
-  const areaReqs = AREA_REQS.filter(
-    (a) => !a.track || a.track === student.track,
+  // (다른 계열용 행은 아예 생성하지 않는다). 요건 집합은 입학연도 버전 규칙에서 온다.
+  const areaReqs = rules.areaReqs.filter(
+    (a: AreaReq) => !a.track || a.track === student.track,
   );
 
   // 일반선택 현재값 = 일선(raw) + 교양 초과분 + 주전공 전공 초과분 + 복수/부/연계전공
@@ -896,6 +822,34 @@ export function dashboardSheet(config: GenerateConfig): SheetSpec {
         verdict(
           r.ref(`dash:area:${a.key}:value`),
           r.ref(`dash:area:${a.key}:req`),
+          ICON_OK,
+          ICON_NO,
+        ),
+    },
+  ]);
+
+  // 교양 인정학점 하한 (졸업요건). 이수학점 = 인정 교양학점 = MIN(교필+교선, 교양최대인정),
+  // 필요학점 = ReqGenMin (입학연도 버전 하한, 학과 예외시 override). 영역 표에 한 행 추가.
+  areaRows.push([
+    { value: '교양 인정학점', style: 'label' },
+    {
+      name: 'dash:genMin:value',
+      style: 'computed',
+      numFmt: '0',
+      formula: (r: RefApi) => `MIN(${genRawExpr(r)},${r.ref(NAME.reqGenMax)})`,
+    },
+    {
+      name: 'dash:genMin:req',
+      style: 'computed',
+      numFmt: '0',
+      formula: (r: RefApi) => r.ref(NAME.reqGenMin),
+    },
+    {
+      style: 'computed',
+      formula: (r: RefApi) =>
+        verdict(
+          r.ref('dash:genMin:value'),
+          r.ref('dash:genMin:req'),
           ICON_OK,
           ICON_NO,
         ),
@@ -1045,7 +999,7 @@ export function dashboardSheet(config: GenerateConfig): SheetSpec {
 
   const areaLabelRow = 7;
   const areaHeaderRowNum = areaLabelRow + 1; // 8
-  const areaTableLastRow = areaHeaderRowNum + areaReqs.length; // 8 + N
+  const areaTableLastRow = areaHeaderRowNum + areaRows.length; // 8 + N (+ genMin 행)
 
   // 다중전공 이수 현황 stacks below the 교양 table (col A). When the student has no
   // secondary major the block is omitted entirely (0 rows consumed).
